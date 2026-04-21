@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Tify Prompt System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header class="admin-header">
+            <h1>⚙️ Admin Panel</h1>
+            <a href="index.html" class="back-link">← Back to Builder</a>
+        </header>
+
+        <!-- Categories Management -->
+        <section class="admin-section">
+            <h2>📁 Categories</h2>
+            <div class="form-group">
+                <button class="btn-primary" onclick="openCategoryModal()">+ Add Category</button>
+            </div>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Icon</th>
+                        <th>Tabs</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="categoriesTable">
+                    <tr><td colspan="5" class="loading">Loading...</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Tabs Management -->
+        <section class="admin-section">
+            <h2>📑 Tabs</h2>
+            <div class="form-group">
+                <select id="tabCategorySelect" onchange="loadTabs()">
+                    <option value="">Select Category</option>
+                </select>
+                <button class="btn-primary" onclick="openTabModal()">+ Add Tab</button>
+            </div>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Items Count</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tabsTable">
+                    <tr><td colspan="5" class="empty-state">Select a category first</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Prompt Items Management -->
+        <section class="admin-section">
+            <h2>📝 Prompt Items</h2>
+            <div class="form-group">
+                <select id="itemCategorySelect" onchange="loadItemTabs()">
+                    <option value="">Select Category</option>
+                </select>
+                <select id="itemTabSelect" onchange="loadItems()">
+                    <option value="">Select Tab</option>
+                </select>
+                <button class="btn-primary" onclick="openItemModal()">+ Add Item</button>
+            </div>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Prompt</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="itemsTable">
+                    <tr><td colspan="4" class="empty-state">Select a category and tab first</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sync Section -->
+        <section class="admin-section">
+            <h2>🔄 Sync Data</h2>
+            <div class="form-group">
+                <button class="btn-primary" onclick="syncFromAPI()">📥 Sync from API</button>
+                <button class="btn-secondary" onclick="pushToAPI()">📤 Push to API</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Category Modal -->
+    <div class="modal-overlay" id="categoryModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="categoryModalTitle">Add Category</h3>
+                <button class="modal-close" onclick="closeModal('categoryModal')">×</button>
+            </div>
+            <div class="form-group">
+                <label>Category ID</label>
+                <input type="text" id="categoryId" placeholder="e.g., medium">
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="categoryName" placeholder="e.g., Medium">
+            </div>
+            <div class="form-group">
+                <label>Icon (Emoji)</label>
+                <input type="text" id="categoryIcon" placeholder="e.g., 📸">
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeModal('categoryModal')">Cancel</button>
+                <button class="btn-primary" onclick="saveCategory()">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tab Modal -->
+    <div class="modal-overlay" id="tabModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="tabModalTitle">Add Tab</h3>
+                <button class="modal-close" onclick="closeModal('tabModal')">×</button>
+            </div>
+            <div class="form-group">
+                <label>Category</label>
+                <select id="tabCategory"></select>
+            </div>
+            <div class="form-group">
+                <label>Tab ID</label>
+                <input type="text" id="tabId" placeholder="e.g., photography">
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="tabName" placeholder="e.g., Photography">
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeModal('tabModal')">Cancel</button>
+                <button class="btn-primary" onclick="saveTab()">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Item Modal -->
+    <div class="modal-overlay" id="itemModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="itemModalTitle">Add Item</h3>
+                <button class="modal-close" onclick="closeModal('itemModal')">×</button>
+            </div>
+            <div class="form-group">
+                <label>Category</label>
+                <select id="itemCategory" onchange="loadItemTabsModal()"></select>
+            </div>
+            <div class="form-group">
+                <label>Tab</label>
+                <select id="itemTab"></select>
+            </div>
+            <div class="form-group">
+                <label>Item ID</label>
+                <input type="text" id="itemId" placeholder="e.g., ph1">
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="itemName" placeholder="e.g., Tight Portrait">
+            </div>
+            <div class="form-group">
+                <label>Prompt</label>
+                <textarea id="itemPrompt" rows="3" placeholder="e.g., This is a tight portrait photo"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeModal('itemModal')">Cancel</button>
+                <button class="btn-primary" onclick="saveItem()">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

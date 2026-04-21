@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tify Prompt System - Visual AI Prompt Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1 class="logo">TifyPrompt</h1>
+                <p class="tagline">Visual AI Prompt Builder</p>
+            </div>
+            <nav class="category-nav" id="categoryNav">
+                <!-- Categories will be rendered here -->
+            </nav>
+            <div class="sidebar-footer">
+                <a href="admin.html" class="admin-link">⚙️ Admin Panel</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="content-header">
+                <div class="header-info">
+                    <h2 id="currentCategoryTitle">Select a Category</h2>
+                    <p class="header-hint">Click on any item to add/remove from your prompt</p>
+                </div>
+            </header>
+
+            <!-- Tabs -->
+            <div class="tabs-container" id="tabsContainer">
+                <!-- Tabs will be rendered here -->
+            </div>
+
+            <!-- Grid -->
+            <div class="prompt-grid" id="promptGrid">
+                <!-- Items will be rendered here -->
+            </div>
+        </main>
+
+        <!-- Prompt Box -->
+        <div class="prompt-box" id="promptBox">
+            <div class="prompt-box-header">
+                <h3>
+                    <span class="prompt-icon">📝</span>
+                    Your Prompt (<span id="promptCount">0</span>)
+                </h3>
+                <div class="prompt-actions">
+                    <button class="btn-clear" id="btnClearAll" onclick="clearAllPrompts()">Clear All</button>
+                    <button class="btn-copy" id="btnCopy" onclick="copyPrompt()">📋 Copy</button>
+                </div>
+            </div>
+            <div class="prompt-tags" id="promptTags">
+                <p class="placeholder">Click on any item above to add it to your prompt</p>
+            </div>
+            <div class="prompt-output">
+                <textarea id="promptOutput" readonly placeholder="Your prompt will appear here..."></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
