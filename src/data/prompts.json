@@ -1,0 +1,1487 @@
+{
+  "categories": [
+    {
+      "id": "medium",
+      "name": "Medium",
+      "icon": "📸",
+      "tabs": [
+        {
+          "id": "photography",
+          "name": "Photography",
+          "items": [
+            {"id": "ph1", "name": "Tight Portrait", "prompt": "This is a tight portrait photo"},
+            {"id": "ph2", "name": "Portrait", "prompt": "This is a portrait photo"},
+            {"id": "ph3", "name": "Cinematic Portrait", "prompt": "This is a cinematic portrait photo"},
+            {"id": "ph4", "name": "Cinema Still", "prompt": "This is a cinema still"},
+            {"id": "ph5", "name": "Product", "prompt": "This is a product photography shot"},
+            {"id": "ph6", "name": "Editorial", "prompt": "This is an editorial photograph"},
+            {"id": "ph7", "name": "Fashion & Glamour", "prompt": "This is a fashion and glamour photograph"},
+            {"id": "ph8", "name": "Model Shoot", "prompt": "This is a model shoot photo"},
+            {"id": "ph9", "name": "Candid", "prompt": "This is a spontaneous candid photograph"},
+            {"id": "ph10", "name": "Black & White", "prompt": "This is a classic black-and-white photograph"},
+            {"id": "ph11", "name": "Analog", "prompt": "This is an analog photograph"},
+            {"id": "ph12", "name": "Disposable Camera", "prompt": "This is a disposable camera photograph"},
+            {"id": "ph13", "name": "Polaroid", "prompt": "This is a Polaroid instant photograph"},
+            {"id": "ph14", "name": "Street", "prompt": "This is a street photography shot"},
+            {"id": "ph15", "name": "Night Photography", "prompt": "This is a night photography shot"},
+            {"id": "ph16", "name": "Landscape", "prompt": "This is a landscape photograph"},
+            {"id": "ph17", "name": "Sports", "prompt": "This is a sports photograph"},
+            {"id": "ph18", "name": "Aerial / Drone", "prompt": "This is an aerial drone photograph"},
+            {"id": "ph19", "name": "Underwater", "prompt": "This is an underwater photograph"},
+            {"id": "ph20", "name": "Backlit Silhouette", "prompt": "This is a backlit silhouette photograph"},
+            {"id": "ph21", "name": "Long Exposure", "prompt": "This is a long exposure photograph"},
+            {"id": "ph22", "name": "Neon Night", "prompt": "This is a neon night photograph"},
+            {"id": "ph23", "name": "Documentary", "prompt": "This is a documentary photograph"},
+            {"id": "ph24", "name": "Travel", "prompt": "This is a travel photograph"},
+            {"id": "ph25", "name": "Photojournalism", "prompt": "This is a photojournalism shot"},
+            {"id": "ph26", "name": "CCTV / Surveillance", "prompt": "This is a CCTV surveillance footage"},
+            {"id": "ph27", "name": "Wet Plate / Tintype", "prompt": "This is a wet plate tintype photograph"},
+            {"id": "ph28", "name": "Double Exposure", "prompt": "This is a double exposure photograph"},
+            {"id": "ph29", "name": "Macro", "prompt": "This is a macro photograph"},
+            {"id": "ph30", "name": "Wildlife", "prompt": "This is a wildlife photograph"},
+            {"id": "ph31", "name": "Architecture", "prompt": "This is an architecture photograph"},
+            {"id": "ph32", "name": "Interior", "prompt": "This is an interior photograph"},
+            {"id": "ph33", "name": "Cityscape", "prompt": "This is a cityscape photograph"},
+            {"id": "ph34", "name": "High-speed", "prompt": "This is a high-speed photograph"},
+            {"id": "ph35", "name": "Food", "prompt": "This is a food photograph"},
+            {"id": "ph36", "name": "Astrophotography", "prompt": "This is an astrophotography shot"},
+            {"id": "ph37", "name": "Tilt-Shift", "prompt": "This is a tilt-shift photograph"},
+            {"id": "ph38", "name": "Infrared", "prompt": "This is an infrared photograph"},
+            {"id": "ph39", "name": "Abstract Bokeh", "prompt": "This is an abstract bokeh photograph"},
+            {"id": "ph40", "name": "Pinhole", "prompt": "This is a pinhole photograph"}
+          ]
+        },
+        {
+          "id": "anime",
+          "name": "Anime",
+          "items": [
+            {"id": "an1", "name": "Anime", "prompt": "Anime style illustration"},
+            {"id": "an2", "name": "Anime Concept-art", "prompt": "Anime concept art"},
+            {"id": "an3", "name": "Classic Manga", "prompt": "Classic manga style"},
+            {"id": "an4", "name": "Colored Manga", "prompt": "Colored manga style"},
+            {"id": "an5", "name": "Western Anime", "prompt": "Western anime style"},
+            {"id": "an6", "name": "Retro Anime", "prompt": "Retro anime style"},
+            {"id": "an7", "name": "Character Sheet", "prompt": "Anime character sheet / turnaround"},
+            {"id": "an8", "name": "Studio Ghibli", "prompt": "Studio Ghibli style"},
+            {"id": "an9", "name": "Shinkai Style", "prompt": "Makoto Shinkai style scenery"},
+            {"id": "an10", "name": "Slice of Life", "prompt": "Slice of life anime"},
+            {"id": "an11", "name": "Chibi", "prompt": "Chibi anime style"},
+            {"id": "an12", "name": "Shōnen", "prompt": "Shōnen anime style"},
+            {"id": "an13", "name": "Shōjo", "prompt": "Shōjo anime style"},
+            {"id": "an14", "name": "Seinen", "prompt": "Seinen anime style"},
+            {"id": "an15", "name": "Josei", "prompt": "Josei anime style"},
+            {"id": "an16", "name": "Isekai", "prompt": "Isekai anime style"},
+            {"id": "an17", "name": "Cyberpunk", "prompt": "Cyberpunk anime style"},
+            {"id": "an18", "name": "Vaporwave", "prompt": "Vaporwave 90s anime style"},
+            {"id": "an19", "name": "Line Art", "prompt": "Anime line art"},
+            {"id": "an20", "name": "Pixel Art", "prompt": "Pixel art style"}
+          ]
+        },
+        {
+          "id": "3d",
+          "name": "3D Render",
+          "items": [
+            {"id": "3d1", "name": "Digital Painting", "prompt": "Digital painting style"},
+            {"id": "3d2", "name": "Quick Concept Art", "prompt": "Quick concept art"},
+            {"id": "3d3", "name": "Character Concept Art", "prompt": "Character concept art"},
+            {"id": "3d4", "name": "Environment Concept Art", "prompt": "Environment concept art"},
+            {"id": "3d5", "name": "Risograph", "prompt": "Risograph style"},
+            {"id": "3d6", "name": "Mixed Media Collage", "prompt": "Mixed media collage"},
+            {"id": "3d7", "name": "Vector Illustration", "prompt": "Vector illustration"},
+            {"id": "3d8", "name": "Flat Design", "prompt": "Flat design illustration"},
+            {"id": "3d9", "name": "Corporate Memphis", "prompt": "Corporate Memphis style"},
+            {"id": "3d10", "name": "Low Poly Vector", "prompt": "Low poly vector art"},
+            {"id": "3d11", "name": "Sticker", "prompt": "Sticker design"},
+            {"id": "3d12", "name": "Blueprint", "prompt": "Blueprint schematic style"},
+            {"id": "3d13", "name": "Stylized 3D", "prompt": "Stylized 3D render"},
+            {"id": "3d14", "name": "Disney 3D", "prompt": "Disney 3D animation style"},
+            {"id": "3d15", "name": "DreamWorks", "prompt": "DreamWorks animation style"},
+            {"id": "3d16", "name": "Pixar", "prompt": "Pixar animation style"},
+            {"id": "3d17", "name": "Illumination", "prompt": "Illumination animation style"},
+            {"id": "3d18", "name": "Laika Stop-Motion", "prompt": "Laika stop-motion style"},
+            {"id": "3d19", "name": "Sony Animation", "prompt": "Sony animation style"},
+            {"id": "3d20", "name": "Octane Render", "prompt": "Octane render"},
+            {"id": "3d21", "name": "Unreal Render", "prompt": "Unreal engine render"},
+            {"id": "3d22", "name": "Claymation", "prompt": "Claymation Aardman style"},
+            {"id": "3d23", "name": "Voxel Art", "prompt": "Voxel art"},
+            {"id": "3d24", "name": "LEGO", "prompt": "Plastic bricks LEGO style"},
+            {"id": "3d25", "name": "Low-poly", "prompt": "Low-poly 3D"},
+            {"id": "3d26", "name": "Papercraft", "prompt": "Papercraft origami style"},
+            {"id": "3d27", "name": "Isometric Room", "prompt": "Isometric room"},
+            {"id": "3d28", "name": "High-poly Sculpt", "prompt": "High-poly sculpt"}
+          ]
+        },
+        {
+          "id": "traditional",
+          "name": "Traditional Art",
+          "items": [
+            {"id": "ta1", "name": "Pencil Sketch", "prompt": "Pencil sketch"},
+            {"id": "ta2", "name": "Charcoal Sketch", "prompt": "Charcoal sketch"},
+            {"id": "ta3", "name": "Colored Pencil", "prompt": "Colored pencil sketch"},
+            {"id": "ta4", "name": "Conte Crayon", "prompt": "Conte crayon sketch"},
+            {"id": "ta5", "name": "Watercolor", "prompt": "Watercolor painting"},
+            {"id": "ta6", "name": "Oil Painting", "prompt": "Oil painting"},
+            {"id": "ta7", "name": "Acrylic Painting", "prompt": "Acrylic painting"},
+            {"id": "ta8", "name": "Ink Wash", "prompt": "Ink wash painting"},
+            {"id": "ta9", "name": "Brush & Ink", "prompt": "Brush and ink illustration"},
+            {"id": "ta10", "name": "Pastel", "prompt": "Pastel painting"},
+            {"id": "ta11", "name": "Fresco", "prompt": "Fresco painting"},
+            {"id": "ta12", "name": "Etching", "prompt": "Etching"},
+            {"id": "ta13", "name": "Engraving", "prompt": "Engraving"},
+            {"id": "ta14", "name": "Lithograph", "prompt": "Lithograph"},
+            {"id": "ta15", "name": "Mosaic", "prompt": "Mosaic art"},
+            {"id": "ta16", "name": "Tapestry", "prompt": "Tapestry"},
+            {"id": "ta17", "name": "Folk Art", "prompt": "Folk art"},
+            {"id": "ta18", "name": "Tribal Art", "prompt": "Tribal art"},
+            {"id": "ta19", "name": "Gouache", "prompt": "Gouache painting"},
+            {"id": "ta20", "name": "Tempera", "prompt": "Tempera painting"},
+            {"id": "ta21", "name": "Encaustic", "prompt": "Encaustic wax painting"},
+            {"id": "ta22", "name": "Woodcut", "prompt": "Woodcut"},
+            {"id": "ta23", "name": "Linocut", "prompt": "Linocut"},
+            {"id": "ta24", "name": "Geometric", "prompt": "Geometric art"},
+            {"id": "ta25", "name": "Gestural", "prompt": "Gestural painting"},
+            {"id": "ta26", "name": "Surreal", "prompt": "Surreal art"},
+            {"id": "ta27", "name": "Acrylic Pour", "prompt": "Acrylic pour painting"},
+            {"id": "ta28", "name": "Fluid Painting", "prompt": "Fluid pour painting"},
+            {"id": "ta29", "name": "Fractal", "prompt": "Fractal art"},
+            {"id": "ta30", "name": "Alcohol Ink", "prompt": "Alcohol ink art"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subject",
+      "name": "Subject",
+      "icon": "👤",
+      "tabs": [
+        {
+          "id": "age",
+          "name": "Age Group",
+          "items": [
+            {"id": "ag1", "name": "Infant / Baby", "prompt": "an infant / baby"},
+            {"id": "ag2", "name": "Toddler", "prompt": "a toddler"},
+            {"id": "ag3", "name": "Child (6-10)", "prompt": "a child (6-10 years old)"},
+            {"id": "ag4", "name": "Teenager", "prompt": "a teenager"},
+            {"id": "ag5", "name": "Young Adult (20s)", "prompt": "a young adult in their 20s"},
+            {"id": "ag6", "name": "Adult (30s-40s)", "prompt": "an adult in their 30s-40s"},
+            {"id": "ag7", "name": "Middle Aged (50s)", "prompt": "a middle aged person in their 50s"},
+            {"id": "ag8", "name": "Elderly / Senior", "prompt": "an elderly / senior person"},
+            {"id": "ag9", "name": "Octogenarian (80+)", "prompt": "an octogenarian (80+ years old)"}
+          ]
+        },
+        {
+          "id": "ethnicity",
+          "name": "Ethnicity",
+          "items": [
+            {"id": "et1", "name": "Caucasian / White", "prompt": "caucasian / white person"},
+            {"id": "et2", "name": "Black / African", "prompt": "black / african person"},
+            {"id": "et3", "name": "East Asian", "prompt": "east asian person"},
+            {"id": "et4", "name": "South Asian / Indian", "prompt": "south asian / indian person"},
+            {"id": "et5", "name": "Hispanic / Latino", "prompt": "hispanic / latino person"},
+            {"id": "et6", "name": "Middle Eastern", "prompt": "middle eastern person"},
+            {"id": "et7", "name": "Southeast Asian", "prompt": "southeast asian person"},
+            {"id": "et8", "name": "Pacific Islander", "prompt": "pacific islander person"},
+            {"id": "et9", "name": "Indigenous / Native", "prompt": "indigenous / native person"},
+            {"id": "et10", "name": "Nordic / Scandinavian", "prompt": "nordic / scandinavian person"}
+          ]
+        },
+        {
+          "id": "body_male",
+          "name": "Body Type (Male)",
+          "items": [
+            {"id": "bm1", "name": "Natural / Average", "prompt": "with natural / average build"},
+            {"id": "bm2", "name": "V-Taper", "prompt": "with v-taper build"},
+            {"id": "bm3", "name": "Stocky", "prompt": "with stocky build"},
+            {"id": "bm4", "name": "Slim", "prompt": "with slim build"},
+            {"id": "bm5", "name": "Athletic", "prompt": "with athletic build"},
+            {"id": "bm6", "name": "Muscular", "prompt": "with muscular build"},
+            {"id": "bm7", "name": "Ripped / Shredded", "prompt": "with ripped / shredded physique"},
+            {"id": "bm8", "name": "Lanky", "prompt": "with lanky build"},
+            {"id": "bm9", "name": "Swimmer's Build", "prompt": "with swimmer's build"},
+            {"id": "bm10", "name": "Plus-size / Heavy", "prompt": "with plus-size / heavy build"},
+            {"id": "bm11", "name": "Dad Bod", "prompt": "with dad bod"},
+            {"id": "bm12", "name": "Broad-shouldered", "prompt": "broad-shouldered"},
+            {"id": "bm13", "name": "Skinny", "prompt": "skinny"},
+            {"id": "bm14", "name": "Powerlifter", "prompt": "powerlifter / bulk build"},
+            {"id": "bm15", "name": "Tall", "prompt": "tall stature"},
+            {"id": "bm16", "name": "Short", "prompt": "short stature"},
+            {"id": "bm17", "name": "Rectangle", "prompt": "rectangle body shape"}
+          ]
+        },
+        {
+          "id": "body_female",
+          "name": "Body Type (Female)",
+          "items": [
+            {"id": "bf1", "name": "Natural", "prompt": "with natural body type"},
+            {"id": "bf2", "name": "Hourglass", "prompt": "with hourglass figure"},
+            {"id": "bf3", "name": "Curvy", "prompt": "with curvy figure"},
+            {"id": "bf4", "name": "Petite", "prompt": "petite figure"},
+            {"id": "bf5", "name": "Slim", "prompt": "slim figure"},
+            {"id": "bf6", "name": "Athletic", "prompt": "with athletic figure"},
+            {"id": "bf7", "name": "Muscular", "prompt": "with muscular figure"},
+            {"id": "bf8", "name": "Toned", "prompt": "with toned physique"},
+            {"id": "bf9", "name": "Slender", "prompt": "slender figure"},
+            {"id": "bf10", "name": "Lithe", "prompt": "lithe figure"},
+            {"id": "bf11", "name": "Plus-size", "prompt": "plus-size figure"},
+            {"id": "bf12", "name": "Tall", "prompt": "tall stature"},
+            {"id": "bf13", "name": "Short", "prompt": "short stature"},
+            {"id": "bf14", "name": "Rectangle", "prompt": "rectangle body shape"},
+            {"id": "bf15", "name": "Broad-shouldered", "prompt": "broad-shouldered"},
+            {"id": "bf16", "name": "Inverted Triangle", "prompt": "inverted triangle figure"},
+            {"id": "bf17", "name": "Pear-shaped", "prompt": "pear-shaped figure"}
+          ]
+        },
+        {
+          "id": "tone_male",
+          "name": "Skin Tone (Male)",
+          "items": [
+            {"id": "tm1", "name": "Fair", "prompt": "with fair skin tone"},
+            {"id": "tm2", "name": "Very Fair", "prompt": "with very fair / porcelain skin"},
+            {"id": "tm3", "name": "Rosy", "prompt": "with rosy skin"},
+            {"id": "tm4", "name": "Light", "prompt": "with light skin tone"},
+            {"id": "tm5", "name": "Light Olive", "prompt": "with light olive skin"},
+            {"id": "tm6", "name": "Olive", "prompt": "with olive skin tone"},
+            {"id": "tm7", "name": "Sallow", "prompt": "with sallow skin"},
+            {"id": "tm8", "name": "Warm Tan", "prompt": "with warm tan"},
+            {"id": "tm9", "name": "Golden", "prompt": "with golden skin tone"},
+            {"id": "tm10", "name": "Medium", "prompt": "with medium / neutral skin tone"},
+            {"id": "tm11", "name": "Caramel", "prompt": "with caramel skin tone"},
+            {"id": "tm12", "name": "Brown", "prompt": "with brown skin tone"},
+            {"id": "tm13", "name": "Ebony", "prompt": "with ebony skin"},
+            {"id": "tm14", "name": "Deep Brown", "prompt": "with deep brown skin"}
+          ]
+        },
+        {
+          "id": "tone_female",
+          "name": "Skin Tone (Female)",
+          "items": [
+            {"id": "tf1", "name": "Fair", "prompt": "with fair skin tone"},
+            {"id": "tf2", "name": "Very Fair", "prompt": "with very fair / porcelain skin"},
+            {"id": "tf3", "name": "Rosy", "prompt": "with rosy skin"},
+            {"id": "tf4", "name": "Light", "prompt": "with light skin tone"},
+            {"id": "tf5", "name": "Light Olive", "prompt": "with light olive skin"},
+            {"id": "tf6", "name": "Olive", "prompt": "with olive skin tone"},
+            {"id": "tf7", "name": "Sallow", "prompt": "with sallow skin"},
+            {"id": "tf8", "name": "Warm Tan", "prompt": "with warm tan"},
+            {"id": "tf9", "name": "Golden", "prompt": "with golden skin tone"},
+            {"id": "tf10", "name": "Medium", "prompt": "with medium / neutral skin tone"},
+            {"id": "tf11", "name": "Caramel", "prompt": "with caramel skin tone"},
+            {"id": "tf12", "name": "Brown", "prompt": "with brown skin tone"},
+            {"id": "tf13", "name": "Ebony", "prompt": "with ebony skin"},
+            {"id": "tf14", "name": "Deep Brown", "prompt": "with deep brown skin"}
+          ]
+        },
+        {
+          "id": "texture",
+          "name": "Skin Texture",
+          "items": [
+            {"id": "st1", "name": "Smooth / Shaven", "prompt": "with smooth / shaven skin"},
+            {"id": "st2", "name": "Stubble", "prompt": "with stubble / 5 o'clock shadow"},
+            {"id": "st3", "name": "Rough / Rugged", "prompt": "with rough / rugged skin"},
+            {"id": "st4", "name": "Weathered", "prompt": "with weathered skin"},
+            {"id": "st5", "name": "Freckled", "prompt": "with freckled skin"},
+            {"id": "st6", "name": "Pores", "prompt": "with visible pores"},
+            {"id": "st7", "name": "Oily / Shiny", "prompt": "with oily / shiny skin"},
+            {"id": "st8", "name": "Dry", "prompt": "with dry / chapped skin"},
+            {"id": "st9", "name": "Acne", "prompt": "with acne-prone skin"},
+            {"id": "st10", "name": "Wrinkled / Aged", "prompt": "with wrinkled / aged skin"},
+            {"id": "st11", "name": "Sun-tanned", "prompt": "with sun-tanned skin"},
+            {"id": "st12", "name": "Sunburnt", "prompt": "with sunburnt / flushed skin"}
+          ]
+        },
+        {
+          "id": "face_shape",
+          "name": "Face Shape",
+          "items": [
+            {"id": "fs1", "name": "Round Face", "prompt": "with round face shape"},
+            {"id": "fs2", "name": "Oval Face", "prompt": "with oval face shape"},
+            {"id": "fs3", "name": "Square Face", "prompt": "with square face shape"},
+            {"id": "fs4", "name": "Heart-shaped", "prompt": "with heart-shaped face"},
+            {"id": "fs5", "name": "Long Face", "prompt": "with long face shape"},
+            {"id": "fs6", "name": "Angular Face", "prompt": "with angular face shape"}
+          ]
+        },
+        {
+          "id": "eyes",
+          "name": "Eyes",
+          "items": [
+            {"id": "ey1", "name": "Almond-shaped", "prompt": "with almond-shaped eyes"},
+            {"id": "ey2", "name": "Hooded", "prompt": "with hooded eyes"},
+            {"id": "ey3", "name": "Round Eyes", "prompt": "with round eyes"},
+            {"id": "ey4", "name": "Deep-set", "prompt": "with deep-set eyes"},
+            {"id": "ey5", "name": "Wide-set", "prompt": "with wide-set eyes"},
+            {"id": "ey6", "name": "Monolid", "prompt": "with monolid eyes"},
+            {"id": "ey7", "name": "Close-set", "prompt": "with close-set eyes"},
+            {"id": "ey8", "name": "Double Eyelid", "prompt": "with double eyelid"}
+          ]
+        },
+        {
+          "id": "iris_color",
+          "name": "Iris Color",
+          "items": [
+            {"id": "ic1", "name": "Blue Eyes", "prompt": "with blue eyes"},
+            {"id": "ic2", "name": "Brown Eyes", "prompt": "with brown eyes"},
+            {"id": "ic3", "name": "Green Eyes", "prompt": "with green eyes"},
+            {"id": "ic4", "name": "Olive Green", "prompt": "with olive green eyes"},
+            {"id": "ic5", "name": "Amber Eyes", "prompt": "with amber eyes"},
+            {"id": "ic6", "name": "Gray Eyes", "prompt": "with gray eyes"}
+          ]
+        },
+        {
+          "id": "nose",
+          "name": "Nose",
+          "items": [
+            {"id": "ns1", "name": "Small Nose", "prompt": "with small nose"},
+            {"id": "ns2", "name": "Broad Nose", "prompt": "with broad nose"},
+            {"id": "ns3", "name": "Straight Nose", "prompt": "with straight nose"},
+            {"id": "ns4", "name": "Snub Nose", "prompt": "with snub nose"},
+            {"id": "ns5", "name": "Upturned", "prompt": "with upturned nose"},
+            {"id": "ns6", "name": "Hooked Nose", "prompt": "with hooked nose"}
+          ]
+        },
+        {
+          "id": "lips",
+          "name": "Lips",
+          "items": [
+            {"id": "lp1", "name": "Thin Lips", "prompt": "with thin lips"},
+            {"id": "lp2", "name": "Medium Lips", "prompt": "with medium lips"},
+            {"id": "lp3", "name": "Full Lips", "prompt": "with full lips"},
+            {"id": "lp4", "name": "Wide Mouth", "prompt": "with wide mouth"},
+            {"id": "lp5", "name": "Small Mouth", "prompt": "with small mouth"},
+            {"id": "lp6", "name": "Cupid's Bow", "prompt": "with cupid's bow lips"}
+          ]
+        },
+        {
+          "id": "hair_male",
+          "name": "Hairstyle (Male)",
+          "items": [
+            {"id": "hm1", "name": "Bald", "prompt": "bald"},
+            {"id": "hm2", "name": "Shaved", "prompt": "shaved head"},
+            {"id": "hm3", "name": "Buzzcut", "prompt": "with buzzcut"},
+            {"id": "hm4", "name": "Crew Cut", "prompt": "with crew cut"},
+            {"id": "hm5", "name": "High Fade", "prompt": "with high fade"},
+            {"id": "hm6", "name": "Low Fade", "prompt": "with low fade"},
+            {"id": "hm7", "name": "Undercut", "prompt": "with undercut"},
+            {"id": "hm8", "name": "Pompadour", "prompt": "with pompadour"},
+            {"id": "hm9", "name": "Quiff", "prompt": "with quiff haircut"},
+            {"id": "hm10", "name": "Mohawk", "prompt": "with mohawk"},
+            {"id": "hm11", "name": "Curly Top", "prompt": "with curly top"},
+            {"id": "hm12", "name": "Wavy Hair", "prompt": "with wavy hair"},
+            {"id": "hm13", "name": "Long Hair", "prompt": "with long hair"},
+            {"id": "hm14", "name": "Man Bun", "prompt": "with man bun"},
+            {"id": "hm15", "name": "Dreadlocks", "prompt": "with dreadlocks"},
+            {"id": "hm16", "name": "Afro", "prompt": "with afro"}
+          ]
+        },
+        {
+          "id": "hair_female",
+          "name": "Hairstyle (Female)",
+          "items": [
+            {"id": "hf1", "name": "Bald", "prompt": "bald"},
+            {"id": "hf2", "name": "Shaved", "prompt": "shaved head"},
+            {"id": "hf3", "name": "Buzzcut", "prompt": "with buzzcut"},
+            {"id": "hf4", "name": "Short Crop", "prompt": "with short crop"},
+            {"id": "hf5", "name": "Bob Cut", "prompt": "with bob cut"},
+            {"id": "hf6", "name": "Shoulder-length", "prompt": "with shoulder-length hair"},
+            {"id": "hf7", "name": "Mid-back", "prompt": "with mid-back length hair"},
+            {"id": "hf8", "name": "Waist-length", "prompt": "with waist-length hair"},
+            {"id": "hf9", "name": "Floor-length", "prompt": "with floor-length hair"},
+            {"id": "hf10", "name": "Long Wavy", "prompt": "with long wavy hair"},
+            {"id": "hf11", "name": "Straight Hair", "prompt": "with straight hair"},
+            {"id": "hf12", "name": "Curly Hair", "prompt": "with curly hair"},
+            {"id": "hf13", "name": "Kinky Coils", "prompt": "with kinky coils"},
+            {"id": "hf14", "name": "Afro", "prompt": "with afro"},
+            {"id": "hf15", "name": "Dreadlocks", "prompt": "with dreadlocks"},
+            {"id": "hf16", "name": "Braids", "prompt": "with box braids"},
+            {"id": "hf17", "name": "Cornrows", "prompt": "with cornrows"},
+            {"id": "hf18", "name": "Ponytail", "prompt": "with ponytail"},
+            {"id": "hf19", "name": "Topknot", "prompt": "with topknot"},
+            {"id": "hf20", "name": "Bun", "prompt": "with bun hairstyle"},
+            {"id": "hf21", "name": "Mullet", "prompt": "with mullet"},
+            {"id": "hf22", "name": "Messy / Tousled", "prompt": "with messy / tousled hair"},
+            {"id": "hf23", "name": "Wet Look", "prompt": "with wet look hair"},
+            {"id": "hf24", "name": "Bedhead", "prompt": "with bedhead hair"}
+          ]
+        },
+        {
+          "id": "hair_color",
+          "name": "Hair Color",
+          "items": [
+            {"id": "hc1", "name": "Natural Black", "prompt": "with natural black hair"},
+            {"id": "hc2", "name": "Brown", "prompt": "with brown hair"},
+            {"id": "hc3", "name": "Blonde", "prompt": "with blonde hair"},
+            {"id": "hc4", "name": "Auburn", "prompt": "with auburn hair"},
+            {"id": "hc5", "name": "Ombré", "prompt": "with ombré hair"},
+            {"id": "hc6", "name": "Balayage", "prompt": "with balayage hair"},
+            {"id": "hc7", "name": "Gray / Silver", "prompt": "with gray / silver hair"},
+            {"id": "hc8", "name": "Dyed Pink", "prompt": "with dyed pink hair"},
+            {"id": "hc9", "name": "Dyed Neon", "prompt": "with dyed neon hair"},
+            {"id": "hc10", "name": "Rainbow", "prompt": "with rainbow hair"}
+          ]
+        },
+        {
+          "id": "facial_hair",
+          "name": "Facial Hair",
+          "items": [
+            {"id": "fh1", "name": "Clean Shaven", "prompt": "clean shaven"},
+            {"id": "fh2", "name": "Stubble", "prompt": "with stubble"},
+            {"id": "fh3", "name": "Heavy Stubble", "prompt": "with heavy stubble"},
+            {"id": "fh4", "name": "Short Beard", "prompt": "with short beard"},
+            {"id": "fh5", "name": "Full Beard", "prompt": "with full beard"},
+            {"id": "fh6", "name": "Long Beard", "prompt": "with long beard"},
+            {"id": "fh7", "name": "Trimmed Beard", "prompt": "with trimmed beard"},
+            {"id": "fh8", "name": "Goatee", "prompt": "with goatee"},
+            {"id": "fh9", "name": "Van Dyke", "prompt": "with van dyke beard"},
+            {"id": "fh10", "name": "Mustache", "prompt": "with mustache"},
+            {"id": "fh11", "name": "Mutton Chops", "prompt": "with mutton chops"},
+            {"id": "fh12", "name": "Designer Beard", "prompt": "with designer beard"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "icon": "👕",
+      "tabs": [
+        {
+          "id": "traditional_male",
+          "name": "Traditional (Male)",
+          "items": [
+            {"id": "tm1", "name": "Kurta", "prompt": "wearing a kurta"},
+            {"id": "tm2", "name": "Chapan", "prompt": "wearing a chapan"},
+            {"id": "tm3", "name": "Sherwani", "prompt": "wearing a sherwani"},
+            {"id": "tm4", "name": "Toga", "prompt": "wearing a toga"},
+            {"id": "tm5", "name": "Thobe", "prompt": "wearing a thobe"},
+            {"id": "tm6", "name": "Kimono", "prompt": "wearing a kimono"},
+            {"id": "tm7", "name": "Kilt", "prompt": "wearing a kilt"},
+            {"id": "tm8", "name": "Agbada", "prompt": "wearing an agbada"},
+            {"id": "tm9", "name": "Hanfu", "prompt": "wearing hanfu"},
+            {"id": "tm10", "name": "Lederhosen", "prompt": "wearing lederhosen"},
+            {"id": "tm11", "name": "Poncho", "prompt": "wearing a poncho"},
+            {"id": "tm12", "name": "Barong Tagalog", "prompt": "wearing a Barong Tagalog"},
+            {"id": "tm13", "name": "Bisht", "prompt": "wearing a bisht"},
+            {"id": "tm14", "name": "Dashiki", "prompt": "wearing a dashiki"},
+            {"id": "tm15", "name": "Caftan", "prompt": "wearing a caftan"},
+            {"id": "tm16", "name": "Ao Dai", "prompt": "wearing an ao dai"}
+          ]
+        },
+        {
+          "id": "traditional_female",
+          "name": "Traditional (Female)",
+          "items": [
+            {"id": "tf1", "name": "Kimono", "prompt": "wearing a kimono"},
+            {"id": "tf2", "name": "Yukata", "prompt": "wearing a yukata"},
+            {"id": "tf3", "name": "Hanfu", "prompt": "wearing hanfu"},
+            {"id": "tf4", "name": "Cheongsam / Qipao", "prompt": "wearing a cheongsam / qipao"},
+            {"id": "tf5", "name": "Hanbok", "prompt": "wearing a hanbok"},
+            {"id": "tf6", "name": "Kebaya", "prompt": "wearing a kebaya"},
+            {"id": "tf7", "name": "Dirndl", "prompt": "wearing a dirndl"},
+            {"id": "tf8", "name": "Sari / Saree", "prompt": "wearing a sari / saree"},
+            {"id": "tf9", "name": "Lehenga", "prompt": "wearing a lehenga"},
+            {"id": "tf10", "name": "Huipil", "prompt": "wearing a huipil"},
+            {"id": "tf11", "name": "Robe", "prompt": "wearing a robe"},
+            {"id": "tf12", "name": "Kaftan", "prompt": "wearing a kaftan"},
+            {"id": "tf13", "name": "Kente", "prompt": "wearing kente cloth"},
+            {"id": "tf14", "name": "Abaya", "prompt": "wearing an abaya"},
+            {"id": "tf15", "name": "Chador", "prompt": "wearing a chador"}
+          ]
+        },
+        {
+          "id": "informal_male",
+          "name": "Casual (Male)",
+          "items": [
+            {"id": "im1", "name": "Crewneck T-shirt", "prompt": "wearing a crewneck t-shirt"},
+            {"id": "im2", "name": "V-neck T-shirt", "prompt": "wearing a v-neck t-shirt"},
+            {"id": "im3", "name": "Oversized T-shirt", "prompt": "wearing an oversized t-shirt"},
+            {"id": "im4", "name": "Polo Shirt", "prompt": "wearing a polo shirt"},
+            {"id": "im5", "name": "Henley Shirt", "prompt": "wearing a henley shirt"},
+            {"id": "im6", "name": "Flannel Shirt", "prompt": "wearing a flannel shirt"},
+            {"id": "im7", "name": "Hoodie", "prompt": "wearing a hoodie"},
+            {"id": "im8", "name": "Muscle Tank", "prompt": "wearing a muscle tank"},
+            {"id": "im9", "name": "Hawaiian Shirt", "prompt": "wearing a hawaiian shirt"},
+            {"id": "im10", "name": "Sweatshirt", "prompt": "wearing a sweatshirt"},
+            {"id": "im11", "name": "Denim Jeans", "prompt": "wearing denim jeans"},
+            {"id": "im12", "name": "Denim Jacket", "prompt": "wearing a denim jacket"},
+            {"id": "im13", "name": "Shorts", "prompt": "wearing shorts"},
+            {"id": "im14", "name": "Cargo Pants", "prompt": "wearing cargo pants"},
+            {"id": "im15", "name": "Joggers", "prompt": "wearing joggers"},
+            {"id": "im16", "name": "Leggings", "prompt": "wearing leggings"}
+          ]
+        },
+        {
+          "id": "informal_female",
+          "name": "Casual (Female)",
+          "items": [
+            {"id": "if1", "name": "Crewneck T-shirt", "prompt": "wearing a crewneck t-shirt"},
+            {"id": "if2", "name": "Polo T-shirt", "prompt": "wearing a polo t-shirt"},
+            {"id": "if3", "name": "Tank Top", "prompt": "wearing a tank top"},
+            {"id": "if4", "name": "Crop Top", "prompt": "wearing a crop top"},
+            {"id": "if5", "name": "Hoodie", "prompt": "wearing a hoodie"},
+            {"id": "if6", "name": "Sweatshirt", "prompt": "wearing a sweatshirt"},
+            {"id": "if7", "name": "Denim Jeans", "prompt": "wearing denim jeans"},
+            {"id": "if8", "name": "Denim Jacket", "prompt": "wearing a denim jacket"},
+            {"id": "if9", "name": "Shorts", "prompt": "wearing shorts"},
+            {"id": "if10", "name": "Cargo Pants", "prompt": "wearing cargo pants"},
+            {"id": "if11", "name": "Joggers", "prompt": "wearing joggers"},
+            {"id": "if12", "name": "Leggings", "prompt": "wearing leggings"},
+            {"id": "if13", "name": "Sundress", "prompt": "wearing a sundress"},
+            {"id": "if14", "name": "Flannel Shirt", "prompt": "wearing a flannel shirt"},
+            {"id": "if15", "name": "Overalls", "prompt": "wearing overalls"},
+            {"id": "if16", "name": "Athleisure", "prompt": "wearing athleisure wear"}
+          ]
+        },
+        {
+          "id": "formal_male",
+          "name": "Formal (Male)",
+          "items": [
+            {"id": "formm1", "name": "Two-Piece Suit", "prompt": "wearing a two-piece suit"},
+            {"id": "formm2", "name": "Tuxedo", "prompt": "wearing a tuxedo"},
+            {"id": "formm3", "name": "Double-Breasted Suit", "prompt": "wearing a double-breasted suit"},
+            {"id": "formm4", "name": "Three-Piece Suit", "prompt": "wearing a three-piece suit"},
+            {"id": "formm5", "name": "Evening Tailcoat", "prompt": "wearing an evening tailcoat"},
+            {"id": "formm6", "name": "Morning Coat", "prompt": "wearing a morning coat"},
+            {"id": "formm7", "name": "Dinner Jacket", "prompt": "wearing a dinner jacket"},
+            {"id": "formm8", "name": "Waistcoat", "prompt": "wearing a waistcoat"},
+            {"id": "formm9", "name": "Dress Shirt", "prompt": "wearing a dress shirt"}
+          ]
+        },
+        {
+          "id": "formal_female",
+          "name": "Formal (Female)",
+          "items": [
+            {"id": "formf1", "name": "Suit", "prompt": "wearing a suit"},
+            {"id": "formf2", "name": "Tuxedo", "prompt": "wearing a tuxedo"},
+            {"id": "formf3", "name": "Business Suit", "prompt": "wearing a business suit"},
+            {"id": "formf4", "name": "Tailcoat", "prompt": "wearing a tailcoat"},
+            {"id": "formf5", "name": "Dinner Jacket", "prompt": "wearing a dinner jacket"},
+            {"id": "formf6", "name": "Waistcoat", "prompt": "wearing a waistcoat / vest"},
+            {"id": "formf7", "name": "Cocktail Dress", "prompt": "wearing a cocktail dress"},
+            {"id": "formf8", "name": "Dress Shirt", "prompt": "wearing a dress shirt"}
+          ]
+        },
+        {
+          "id": "uniform_male",
+          "name": "Uniform (Male)",
+          "items": [
+            {"id": "um1", "name": "Military", "prompt": "wearing military uniform"},
+            {"id": "um2", "name": "Military Ceremonial", "prompt": "wearing military ceremonial uniform"},
+            {"id": "um3", "name": "Police", "prompt": "wearing police uniform"},
+            {"id": "um4", "name": "Firefighter", "prompt": "wearing firefighter uniform"},
+            {"id": "um5", "name": "Security Guard", "prompt": "wearing security guard uniform"},
+            {"id": "um6", "name": "Pilot", "prompt": "wearing pilot uniform"},
+            {"id": "um7", "name": "Cabin Crew", "prompt": "wearing cabin crew uniform"},
+            {"id": "um8", "name": "Nurse Scrubs", "prompt": "wearing nurse scrubs"},
+            {"id": "um9", "name": "Doctor", "prompt": "wearing doctor coat"},
+            {"id": "um10", "name": "Chef", "prompt": "wearing chef uniform"},
+            {"id": "um11", "name": "Sailor", "prompt": "wearing sailor uniform"},
+            {"id": "um12", "name": "Construction", "prompt": "wearing construction gear"}
+          ]
+        },
+        {
+          "id": "uniform_female",
+          "name": "Uniform (Female)",
+          "items": [
+            {"id": "uf1", "name": "Military", "prompt": "wearing military uniform"},
+            {"id": "uf2", "name": "Military Ceremonial", "prompt": "wearing military ceremonial uniform"},
+            {"id": "uf3", "name": "Police", "prompt": "wearing police uniform"},
+            {"id": "uf4", "name": "Firefighter", "prompt": "wearing firefighter uniform"},
+            {"id": "uf5", "name": "Security Guard", "prompt": "wearing security guard uniform"},
+            {"id": "uf6", "name": "Pilot", "prompt": "wearing pilot uniform"},
+            {"id": "uf7", "name": "Flight Attendant", "prompt": "wearing flight attendant uniform"},
+            {"id": "uf8", "name": "Nurse Scrubs", "prompt": "wearing nurse scrubs"},
+            {"id": "uf9", "name": "Doctor", "prompt": "wearing doctor coat"},
+            {"id": "uf10", "name": "Chef", "prompt": "wearing chef uniform"}
+          ]
+        },
+        {
+          "id": "party_male",
+          "name": "Party (Male)",
+          "items": [
+            {"id": "pm1", "name": "Tuxedo", "prompt": "wearing a tuxedo"},
+            {"id": "pm2", "name": "White Dinner Suit", "prompt": "wearing a white dinner suit"},
+            {"id": "pm3", "name": "Velvet Blazer", "prompt": "wearing a velvet blazer"},
+            {"id": "pm4", "name": "Sequin Jacket", "prompt": "wearing a sequin jacket"},
+            {"id": "pm5", "name": "Metallic Suit", "prompt": "wearing a metallic suit"},
+            {"id": "pm6", "name": "Satin Party Shirt", "prompt": "wearing a satin party shirt"},
+            {"id": "pm7", "name": "Velvet Smoking Jacket", "prompt": "wearing a velvet smoking jacket"},
+            {"id": "pm8", "name": "Sparkle Shirt", "prompt": "wearing a sparkle shirt"},
+            {"id": "pm9", "name": "Bold Color Suit", "prompt": "wearing a bold color suit"},
+            {"id": "pm10", "name": "Embellished Jacket", "prompt": "wearing an embellished jacket"}
+          ]
+        },
+        {
+          "id": "party_female",
+          "name": "Party (Female)",
+          "items": [
+            {"id": "pf1", "name": "Evening Gown", "prompt": "wearing an evening gown"},
+            {"id": "pf2", "name": "Ball Gown", "prompt": "wearing a ball gown"},
+            {"id": "pf3", "name": "Little Black Dress", "prompt": "wearing a little black dress"},
+            {"id": "pf4", "name": "Sequin Mini Dress", "prompt": "wearing a sequin mini dress"},
+            {"id": "pf5", "name": "Slip Dress", "prompt": "wearing a slip dress"},
+            {"id": "pf6", "name": "Party Jumpsuit", "prompt": "wearing a party jumpsuit"},
+            {"id": "pf7", "name": "Metallic Dress", "prompt": "wearing a metallic dress"},
+            {"id": "pf8", "name": "Beaded Cocktail Dress", "prompt": "wearing a beaded cocktail dress"},
+            {"id": "pf9", "name": "Satin Wrap Dress", "prompt": "wearing a satin wrap dress"},
+            {"id": "pf10", "name": "Fringe Dress", "prompt": "wearing a fringe dress"},
+            {"id": "pf11", "name": "Corset Dress", "prompt": "wearing a corset dress"},
+            {"id": "pf12", "name": "Tulle Party Dress", "prompt": "wearing a tulle party dress"}
+          ]
+        },
+        {
+          "id": "sleepwear",
+          "name": "Sleepwear",
+          "items": [
+            {"id": "sl1", "name": "Pajama Set", "prompt": "wearing a pajama set"},
+            {"id": "sl2", "name": "Boxer Shorts", "prompt": "wearing boxer shorts"},
+            {"id": "sl3", "name": "Robe", "prompt": "wearing a robe"},
+            {"id": "sl4", "name": "T-shirt & Shorts", "prompt": "wearing t-shirt and shorts"},
+            {"id": "sl5", "name": "Onesie", "prompt": "wearing a onesie"},
+            {"id": "sl6", "name": "Silk Pajama", "prompt": "wearing silk pajamas"},
+            {"id": "sl7", "name": "Flannel Pajama", "prompt": "wearing flannel pajamas"},
+            {"id": "sl8", "name": "Nightgown", "prompt": "wearing a nightgown"},
+            {"id": "sl9", "name": "Chemise", "prompt": "wearing a chemise"},
+            {"id": "sl10", "name": "Lace Nightgown", "prompt": "wearing a lace nightgown"}
+          ]
+        },
+        {
+          "id": "swimwear",
+          "name": "Swimwear",
+          "items": [
+            {"id": "sw1", "name": "Swim Trunks", "prompt": "wearing swim trunks"},
+            {"id": "sw2", "name": "Boardshorts", "prompt": "wearing boardshorts"},
+            {"id": "sw3", "name": "Swim Shorts", "prompt": "wearing swim shorts"},
+            {"id": "sw4", "name": "Speedo", "prompt": "wearing speedo"},
+            {"id": "sw5", "name": "Rashguard", "prompt": "wearing a rashguard"},
+            {"id": "sw6", "name": "Swimsuit", "prompt": "wearing a swimsuit"},
+            {"id": "sw7", "name": "Bikini", "prompt": "wearing a bikini"},
+            {"id": "sw8", "name": "Monokini", "prompt": "wearing a monokini"}
+          ]
+        },
+        {
+          "id": "fabric",
+          "name": "Fabric",
+          "items": [
+            {"id": "fb1", "name": "Cotton", "prompt": "made of soft breathable cotton"},
+            {"id": "fb2", "name": "Linen", "prompt": "made of lightweight linen slub"},
+            {"id": "fb3", "name": "Silk", "prompt": "made of luxurious silk drape"},
+            {"id": "fb4", "name": "Satin", "prompt": "made of smooth satin gloss"},
+            {"id": "fb5", "name": "Velvet", "prompt": "made of plush velvet pile"},
+            {"id": "fb6", "name": "Wool", "prompt": "made of warm wool dense"},
+            {"id": "fb7", "name": "Cashmere", "prompt": "made of ultra-soft cashmere"},
+            {"id": "fb8", "name": "Denim", "prompt": "made of sturdy denim twill"},
+            {"id": "fb9", "name": "Leather", "prompt": "made of supple leather grain"},
+            {"id": "fb10", "name": "Faux Leather", "prompt": "made of faux leather sheen"},
+            {"id": "fb11", "name": "Suede", "prompt": "made of soft suede nap"},
+            {"id": "fb12", "name": "Lace", "prompt": "made of delicate lace openwork"},
+            {"id": "fb13", "name": "Mesh", "prompt": "made of sheer mesh grid"},
+            {"id": "fb14", "name": "Chiffon", "prompt": "made of light chiffon flow"},
+            {"id": "fb15", "name": "Organza", "prompt": "made of crisp organza sheer"},
+            {"id": "fb16", "name": "Tulle", "prompt": "made of airy tulle net"},
+            {"id": "fb17", "name": "Neoprene", "prompt": "made of thick neoprene body"},
+            {"id": "fb18", "name": "Sequin", "prompt": "made of sequin reflective dense"},
+            {"id": "fb19", "name": "Metallic", "prompt": "made of metallic reflective weave"}
+          ]
+        },
+        {
+          "id": "pattern",
+          "name": "Pattern",
+          "items": [
+            {"id": "pat1", "name": "Vertical Stripe", "prompt": "with vertical stripe bands"},
+            {"id": "pat2", "name": "Horizontal Stripe", "prompt": "with horizontal stripe rhythm"},
+            {"id": "pat3", "name": "Plaid Tartan", "prompt": "with plaid tartan grid"},
+            {"id": "pat4", "name": "Checkered", "prompt": "with checkered square repeats"},
+            {"id": "pat5", "name": "Houndstooth", "prompt": "with houndstooth broken check"},
+            {"id": "pat6", "name": "Polka Dot", "prompt": "with polka dot circular pattern"},
+            {"id": "pat7", "name": "Floral", "prompt": "with floral botanical shapes"},
+            {"id": "pat8", "name": "Geometric", "prompt": "with geometric angular symmetry"},
+            {"id": "pat9", "name": "Camouflage", "prompt": "with camouflage organic blotch"},
+            {"id": "pat10", "name": "Animal Print", "prompt": "with animal print leopard"},
+            {"id": "pat11", "name": "Abstract", "prompt": "with abstract irregular shapes"},
+            {"id": "pat12", "name": "Tie-Dye", "prompt": "with tie-dye radial blend"},
+            {"id": "pat13", "name": "Ikat", "prompt": "with ikat blurred edges"},
+            {"id": "pat14", "name": "Paisley", "prompt": "with paisley teardrop motifs"},
+            {"id": "pat15", "name": "Batik", "prompt": "with batik wax-resist pattern"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pose",
+      "name": "Pose",
+      "icon": "🏃",
+      "tabs": [
+        {
+          "id": "action",
+          "name": "Action",
+          "items": [
+            {"id": "ac1", "name": "Walking", "prompt": "walking"},
+            {"id": "ac2", "name": "Jogging", "prompt": "jogging"},
+            {"id": "ac3", "name": "Running", "prompt": "running"},
+            {"id": "ac4", "name": "Sprinting", "prompt": "sprinting"},
+            {"id": "ac5", "name": "Leaping / Jumping", "prompt": "leaping / jumping"},
+            {"id": "ac6", "name": "Floating / Levitating", "prompt": "floating / levitating"},
+            {"id": "ac7", "name": "Flying", "prompt": "flying"},
+            {"id": "ac8", "name": "Falling", "prompt": "falling"},
+            {"id": "ac9", "name": "Fashion Pose 1", "prompt": "in fashion pose 1"},
+            {"id": "ac10", "name": "Fashion Pose 2", "prompt": "in fashion pose 2"},
+            {"id": "ac11", "name": "Dancing", "prompt": "dancing"},
+            {"id": "ac12", "name": "Twirling", "prompt": "twirling"},
+            {"id": "ac13", "name": "Sitting Cross-legged", "prompt": "sitting cross-legged"},
+            {"id": "ac14", "name": "Kneeling", "prompt": "kneeling"},
+            {"id": "ac15", "name": "Crouching", "prompt": "crouching"},
+            {"id": "ac16", "name": "Laying On Back", "prompt": "laying on back"},
+            {"id": "ac17", "name": "Lunging", "prompt": "lunging"},
+            {"id": "ac18", "name": "Punching", "prompt": "punching"},
+            {"id": "ac19", "name": "Kicking", "prompt": "kicking"},
+            {"id": "ac20", "name": "Fighting Stance", "prompt": "in fighting stance"},
+            {"id": "ac21", "name": "Fencing Pose", "prompt": "in fencing pose"},
+            {"id": "ac22", "name": "Aiming", "prompt": "aiming"},
+            {"id": "ac23", "name": "Aiming Weapon", "prompt": "aiming weapon"},
+            {"id": "ac24", "name": "Casting Spell", "prompt": "casting a spell"},
+            {"id": "ac25", "name": "Playing Instrument", "prompt": "playing instrument"},
+            {"id": "ac26", "name": "Singing", "prompt": "singing"},
+            {"id": "ac27", "name": "Reclining", "prompt": "reclining"},
+            {"id": "ac28", "name": "Reading", "prompt": "reading"},
+            {"id": "ac29", "name": "Painting", "prompt": "painting"},
+            {"id": "ac30", "name": "Meditating", "prompt": "meditating"},
+            {"id": "ac31", "name": "Yoga Lotus", "prompt": "in yoga lotus position"},
+            {"id": "ac32", "name": "Yoga Warrior", "prompt": "in yoga warrior pose"}
+          ]
+        },
+        {
+          "id": "orientation",
+          "name": "Orientation",
+          "items": [
+            {"id": "or1", "name": "Front View", "prompt": "front view"},
+            {"id": "or2", "name": "Side Profile", "prompt": "side profile"},
+            {"id": "or3", "name": "Three-Quarter Front", "prompt": "three-quarter front view"},
+            {"id": "or4", "name": "Three-Quarter Back", "prompt": "three-quarter back view"},
+            {"id": "or5", "name": "Back View", "prompt": "back view"},
+            {"id": "or6", "name": "Seated Side Profile", "prompt": "seated side profile"},
+            {"id": "or7", "name": "Seated Three-Quarter", "prompt": "seated three-quarter view"}
+          ]
+        },
+        {
+          "id": "gaze",
+          "name": "Gaze",
+          "items": [
+            {"id": "gz1", "name": "Looking at Camera", "prompt": "looking at viewer / camera"},
+            {"id": "gz2", "name": "Looking Away", "prompt": "looking away"},
+            {"id": "gz3", "name": "Looking Sideways", "prompt": "looking sideways"},
+            {"id": "gz4", "name": "Looking Back", "prompt": "looking back"},
+            {"id": "gz5", "name": "Looking Upward", "prompt": "looking upward"},
+            {"id": "gz6", "name": "Looking Downward", "prompt": "looking downward"},
+            {"id": "gz7", "name": "Shy Downward Glance", "prompt": "with shy downward glance"},
+            {"id": "gz8", "name": "Dreamy Distant Stare", "prompt": "with dreamy distant stare"},
+            {"id": "gz9", "name": "Intense Stare", "prompt": "with intense stare"},
+            {"id": "gz10", "name": "Squinting Eyes", "prompt": "with squinting eyes"},
+            {"id": "gz11", "name": "Eyes Closed", "prompt": "with eyes closed"}
+          ]
+        },
+        {
+          "id": "expression",
+          "name": "Expression",
+          "items": [
+            {"id": "ex1", "name": "Gentle Smile", "prompt": "with gentle smile"},
+            {"id": "ex2", "name": "Beaming Grin", "prompt": "with beaming grin"},
+            {"id": "ex3", "name": "Laughing", "prompt": "laughing"},
+            {"id": "ex4", "name": "Smirk", "prompt": "with smirk"},
+            {"id": "ex5", "name": "Ecstatic", "prompt": "with ecstatic expression"},
+            {"id": "ex6", "name": "Amused", "prompt": "with amused expression"},
+            {"id": "ex7", "name": "Melancholic", "prompt": "with melancholic expression"},
+            {"id": "ex8", "name": "Tearful", "prompt": "with tearful expression"},
+            {"id": "ex9", "name": "Crying", "prompt": "crying"},
+            {"id": "ex10", "name": "Grieving", "prompt": "grieving"},
+            {"id": "ex11", "name": "Disappointed", "prompt": "with disappointed expression"},
+            {"id": "ex12", "name": "Lonely", "prompt": "with lonely expression"},
+            {"id": "ex13", "name": "Frown", "prompt": "with frown"},
+            {"id": "ex14", "name": "Scowl", "prompt": "with scowl"},
+            {"id": "ex15", "name": "Rage", "prompt": "with rage expression"},
+            {"id": "ex16", "name": "Annoyed", "prompt": "with annoyed expression"},
+            {"id": "ex17", "name": "Disgusted", "prompt": "with disgusted expression"},
+            {"id": "ex18", "name": "Contempt", "prompt": "with contempt expression"},
+            {"id": "ex19", "name": "Shocked", "prompt": "with shocked expression"},
+            {"id": "ex20", "name": "Terrified", "prompt": "with terrified expression"},
+            {"id": "ex21", "name": "Anxious", "prompt": "with anxious expression"},
+            {"id": "ex22", "name": "Startled", "prompt": "with startled expression"},
+            {"id": "ex23", "name": "Awe", "prompt": "with awe expression"},
+            {"id": "ex24", "name": "Paralyzed", "prompt": "with paralyzed expression"},
+            {"id": "ex25", "name": "Focused", "prompt": "with focused expression"},
+            {"id": "ex26", "name": "Confused", "prompt": "with confused expression"},
+            {"id": "ex27", "name": "Skeptical", "prompt": "with skeptical expression"},
+            {"id": "ex28", "name": "Thoughtful", "prompt": "with thoughtful expression"},
+            {"id": "ex29", "name": "Curious", "prompt": "with curious expression"},
+            {"id": "ex30", "name": "Determined", "prompt": "with determined expression"},
+            {"id": "ex31", "name": "Seductive", "prompt": "with seductive expression"},
+            {"id": "ex32", "name": "Flirty", "prompt": "with flirty expression"},
+            {"id": "ex33", "name": "Charming", "prompt": "with charming expression"},
+            {"id": "ex34", "name": "Bedroom Eyes", "prompt": "with bedroom eyes"},
+            {"id": "ex35", "name": "Poker Face", "prompt": "with poker face"},
+            {"id": "ex36", "name": "Tired / Exhausted", "prompt": "with tired / exhausted expression"},
+            {"id": "ex37", "name": "Mysterious", "prompt": "with mysterious expression"},
+            {"id": "ex38", "name": "Pain", "prompt": "with pain expression"},
+            {"id": "ex39", "name": "Serene", "prompt": "with serene expression"},
+            {"id": "ex40", "name": "Sleeping", "prompt": "sleeping"}
+          ]
+        },
+        {
+          "id": "hand",
+          "name": "Hand",
+          "items": [
+            {"id": "hd1", "name": "Thumbs Up", "prompt": "giving thumbs up"},
+            {"id": "hd2", "name": "Thumbs Down", "prompt": "giving thumbs down"},
+            {"id": "hd3", "name": "Hands in Pockets", "prompt": "with hands in pockets"},
+            {"id": "hd4", "name": "Hands on Hips", "prompt": "with hands on hips"},
+            {"id": "hd5", "name": "Hands Behind Back", "prompt": "with hands behind back"},
+            {"id": "hd6", "name": "Pointing", "prompt": "pointing"},
+            {"id": "hd7", "name": "Open Palm", "prompt": "with open palm"},
+            {"id": "hd8", "name": "Palm Receiving", "prompt": "with palm receiving"},
+            {"id": "hd9", "name": "Palm Presenting", "prompt": "with palm presenting"},
+            {"id": "hd10", "name": "Palm Pressing", "prompt": "with palm pressing"},
+            {"id": "hd11", "name": "Closed Fist", "prompt": "with closed fist"},
+            {"id": "hd12", "name": "Fingers Splayed", "prompt": "with fingers splayed"},
+            {"id": "hd13", "name": "Fingers Interlaced", "prompt": "with fingers interlaced"},
+            {"id": "hd14", "name": "Namaste", "prompt": "in namaste gesture"},
+            {"id": "hd15", "name": "Clapping", "prompt": "clapping"},
+            {"id": "hd16", "name": "Wiping Forehead", "prompt": "wiping forehead"},
+            {"id": "hd17", "name": "Covering Mouth", "prompt": "covering mouth"},
+            {"id": "hd18", "name": "Victory Sign", "prompt": "giving victory sign"},
+            {"id": "hd19", "name": "OK Sign", "prompt": "giving OK sign"},
+            {"id": "hd20", "name": "Heart Sign", "prompt": "giving heart sign"},
+            {"id": "hd21", "name": "Rock On", "prompt": "giving rock on / horns sign"},
+            {"id": "hd22", "name": "Salute", "prompt": "saluting"},
+            {"id": "hd23", "name": "Finger to Lips", "prompt": "with finger to lips (shh)"}
+          ]
+        },
+        {
+          "id": "leg",
+          "name": "Leg",
+          "items": [
+            {"id": "lg1", "name": "Legs Straight", "prompt": "sitting with legs straight"},
+            {"id": "lg2", "name": "Knee Bent", "prompt": "sitting with knee bent"},
+            {"id": "lg3", "name": "Cross-legged", "prompt": "sitting cross-legged"},
+            {"id": "lg4", "name": "Legs Wide", "prompt": "standing with legs wide apart"},
+            {"id": "lg5", "name": "Side Split", "prompt": "in side split"},
+            {"id": "lg6", "name": "Leg on Chair", "prompt": "with leg resting on chair"},
+            {"id": "lg7", "name": "Knee Lift", "prompt": "with knee lift"},
+            {"id": "lg8", "name": "Knees Bent", "prompt": "with knees bent"},
+            {"id": "lg9", "name": "Leg Tucked", "prompt": "with leg tucked"},
+            {"id": "lg10", "name": "Legs Hanging", "prompt": "sitting with legs hanging"},
+            {"id": "lg11", "name": "On Toes", "prompt": "standing on toes"},
+            {"id": "lg12", "name": "Kneeling", "prompt": "kneeling on the ground"},
+            {"id": "lg13", "name": "Foot Braced", "prompt": "with foot braced for support"},
+            {"id": "lg14", "name": "One Foot", "prompt": "standing on one foot"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor",
+      "icon": "🌍",
+      "tabs": [
+        {
+          "id": "nature",
+          "name": "Nature",
+          "items": [
+            {"id": "nat1", "name": "Conifer Forest", "prompt": "in conifer forest"},
+            {"id": "nat2", "name": "Tropical Rainforest", "prompt": "in tropical rainforest"},
+            {"id": "nat3", "name": "Bamboo Grove", "prompt": "in bamboo grove"},
+            {"id": "nat4", "name": "Alpine Meadow", "prompt": "in alpine meadow"},
+            {"id": "nat5", "name": "African Savannah", "prompt": "in african savannah"},
+            {"id": "nat6", "name": "Tropical Beach", "prompt": "at tropical beach"},
+            {"id": "nat7", "name": "Rocky Coastline", "prompt": "at rocky coastline"},
+            {"id": "nat8", "name": "Waterfall", "prompt": "at waterfall"},
+            {"id": "nat9", "name": "Mirror Lake", "prompt": "at mirror lake"},
+            {"id": "nat10", "name": "Winding River", "prompt": "at winding river"},
+            {"id": "nat11", "name": "Coral Reef", "prompt": "at coral reef"},
+            {"id": "nat12", "name": "Sand Dunes", "prompt": "at sand dunes"},
+            {"id": "nat13", "name": "Red Rock Canyon", "prompt": "at red rock canyon"},
+            {"id": "nat14", "name": "Arctic Tundra", "prompt": "in arctic tundra"},
+            {"id": "nat15", "name": "Glacial Field", "prompt": "in glacial field"},
+            {"id": "nat16", "name": "Volcanic Landscape", "prompt": "in volcanic landscape"},
+            {"id": "nat17", "name": "Cliff Edge", "prompt": "at cliff edge"},
+            {"id": "nat18", "name": "Stalagmites Cave", "prompt": "in stalagmites cave"},
+            {"id": "nat19", "name": "Sea Cave", "prompt": "in sea cave"},
+            {"id": "nat20", "name": "Underground Cenote", "prompt": "in underground cenote"}
+          ]
+        },
+        {
+          "id": "transit",
+          "name": "Transit",
+          "items": [
+            {"id": "tr1", "name": "Airport Terminal", "prompt": "at airport terminal"},
+            {"id": "tr2", "name": "Airport Tarmac", "prompt": "at airport tarmac"},
+            {"id": "tr3", "name": "Rooftop Helipad", "prompt": "at rooftop helipad"},
+            {"id": "tr4", "name": "Subway Platform", "prompt": "at subway platform"},
+            {"id": "tr5", "name": "Vintage Steam Train", "prompt": "at vintage steam train"},
+            {"id": "tr6", "name": "Futuristic Monorail", "prompt": "at futuristic monorail"},
+            {"id": "tr7", "name": "Highway Overpass", "prompt": "at highway overpass"},
+            {"id": "tr8", "name": "Parking Lot", "prompt": "at parking lot"},
+            {"id": "tr9", "name": "Protected Bike Lane", "prompt": "in protected bike lane"},
+            {"id": "tr10", "name": "Gas Station Night", "prompt": "at gas station night"},
+            {"id": "tr11", "name": "Road Tunnel", "prompt": "in road tunnel"},
+            {"id": "tr12", "name": "Suspension Bridge", "prompt": "at suspension bridge"},
+            {"id": "tr13", "name": "Stone Arch Bridge", "prompt": "at stone arch bridge"},
+            {"id": "tr14", "name": "Metro Viaduct", "prompt": "at metro viaduct"},
+            {"id": "tr15", "name": "Bus Stop", "prompt": "at bus stop"},
+            {"id": "tr16", "name": "Tram Stop", "prompt": "at tram stop"},
+            {"id": "tr17", "name": "Traffic Roundabout", "prompt": "at traffic roundabout"},
+            {"id": "tr18", "name": "Urban Cable Car", "prompt": "at urban cable car"},
+            {"id": "tr19", "name": "Ferry Terminal", "prompt": "at ferry terminal"},
+            {"id": "tr20", "name": "Shipping Port", "prompt": "at shipping port"},
+            {"id": "tr21", "name": "Canal Boat", "prompt": "at canal boat"}
+          ]
+        },
+        {
+          "id": "urban",
+          "name": "Urban",
+          "items": [
+            {"id": "urb1", "name": "City Skyline", "prompt": "with city skyline"},
+            {"id": "urb2", "name": "Downtown Street", "prompt": "on downtown street"},
+            {"id": "urb3", "name": "Neon Plaza", "prompt": "at neon plaza"},
+            {"id": "urb4", "name": "Suburban Street", "prompt": "on suburban street"},
+            {"id": "urb5", "name": "Urban Alley", "prompt": "in urban alley"},
+            {"id": "urb6", "name": "Residential Block", "prompt": "at residential block"},
+            {"id": "urb7", "name": "Open Air Market", "prompt": "at open air market"},
+            {"id": "urb8", "name": "Industrial District", "prompt": "in industrial district"},
+            {"id": "urb9", "name": "Construction Site", "prompt": "at construction site"},
+            {"id": "urb10", "name": "Boardwalk", "prompt": "on boardwalk"},
+            {"id": "urb11", "name": "Concrete Skatepark", "prompt": "at concrete skatepark"},
+            {"id": "urb12", "name": "Nightclub District", "prompt": "in nightclub district street"}
+          ]
+        },
+        {
+          "id": "houses",
+          "name": "Houses",
+          "items": [
+            {"id": "hou1", "name": "Bungalow", "prompt": "at bungalow"},
+            {"id": "hou2", "name": "Cottage", "prompt": "at cottage"},
+            {"id": "hou3", "name": "Farmhouse", "prompt": "at farmhouse"},
+            {"id": "hou4", "name": "Villa", "prompt": "at villa"},
+            {"id": "hou5", "name": "Townhouse", "prompt": "at townhouse"},
+            {"id": "hou6", "name": "Cabin", "prompt": "at cabin"},
+            {"id": "hou7", "name": "Chalet", "prompt": "at chalet"},
+            {"id": "hou8", "name": "Beach House", "prompt": "at beach house"},
+            {"id": "hou9", "name": "Stilt House", "prompt": "at stilt house"},
+            {"id": "hou10", "name": "Treehouse", "prompt": "at treehouse"},
+            {"id": "hou11", "name": "Mansion", "prompt": "at mansion"},
+            {"id": "hou12", "name": "Ranch House", "prompt": "at ranch house"},
+            {"id": "hou13", "name": "Tiny House", "prompt": "at tiny house"},
+            {"id": "hou14", "name": "Shipping Container House", "prompt": "at shipping container house"},
+            {"id": "hou15", "name": "Earthship", "prompt": "at earthship / eco house"},
+            {"id": "hou16", "name": "Colonial House", "prompt": "at colonial house"},
+            {"id": "hou17", "name": "Victorian House", "prompt": "at victorian house"},
+            {"id": "hou18", "name": "Boathouse", "prompt": "at boathouse"},
+            {"id": "hou19", "name": "Modern Glass House", "prompt": "at modern glass house"}
+          ]
+        },
+        {
+          "id": "institution",
+          "name": "Institution",
+          "items": [
+            {"id": "ins1", "name": "Primary School", "prompt": "at primary school entrance"},
+            {"id": "ins2", "name": "University", "prompt": "at university quad"},
+            {"id": "ins3", "name": "Corporate HQ", "prompt": "at corporate HQ plaza"},
+            {"id": "ins4", "name": "Police Station", "prompt": "at police station exterior"},
+            {"id": "ins5", "name": "Railway Station", "prompt": "at railway station platforms"},
+            {"id": "ins6", "name": "Courthouse", "prompt": "at courthouse steps"},
+            {"id": "ins7", "name": "Museum", "prompt": "at museum facade"},
+            {"id": "ins8", "name": "Town Hall", "prompt": "at town hall square"},
+            {"id": "ins9", "name": "Fire Station", "prompt": "at fire station bay"},
+            {"id": "ins10", "name": "Stadium", "prompt": "at outdoor stadium exterior"},
+            {"id": "ins11", "name": "Market Square", "prompt": "at market square"},
+            {"id": "ins12", "name": "Embassy", "prompt": "at embassy exterior"},
+            {"id": "ins13", "name": "Bank", "prompt": "at bank headquarters"},
+            {"id": "ins14", "name": "Hospital", "prompt": "at hospital building"},
+            {"id": "ins15", "name": "University Entrance", "prompt": "at university entrance"}
+          ]
+        },
+        {
+          "id": "entertainment",
+          "name": "Entertainment",
+          "items": [
+            {"id": "ent1", "name": "Concert Amphitheater", "prompt": "at outdoor concert amphitheater"},
+            {"id": "ent2", "name": "Open-Air Cinema", "prompt": "at open-air cinema"},
+            {"id": "ent3", "name": "Drive-In Theater", "prompt": "at drive-in theater"},
+            {"id": "ent4", "name": "Theme Park", "prompt": "at theme park midway"},
+            {"id": "ent5", "name": "Ferris Wheel", "prompt": "at ferris wheel pier"},
+            {"id": "ent6", "name": "Carnival Fair", "prompt": "at carnival fair"},
+            {"id": "ent7", "name": "Street Performance", "prompt": "at street performance plaza"},
+            {"id": "ent8", "name": "Night Market", "prompt": "at night market"},
+            {"id": "ent9", "name": "Rooftop Bar", "prompt": "at rooftop bar terrace"},
+            {"id": "ent10", "name": "Ice Rink", "prompt": "at ice rink"}
+          ]
+        },
+        {
+          "id": "religious",
+          "name": "Religious",
+          "items": [
+            {"id": "rel1", "name": "Hindu Temple", "prompt": "at hindu temple entrance"},
+            {"id": "rel2", "name": "Stone Temple", "prompt": "at ancient stone temple"},
+            {"id": "rel3", "name": "Temple Courtyard", "prompt": "in temple courtyard"},
+            {"id": "rel4", "name": "Mosque", "prompt": "at mosque exterior"},
+            {"id": "rel5", "name": "Friday Mosque", "prompt": "at friday mosque courtyard"},
+            {"id": "rel6", "name": "Church", "prompt": "at church front facade"},
+            {"id": "rel7", "name": "Cathedral", "prompt": "at cathedral plaza"},
+            {"id": "rel8", "name": "Buddhist Temple", "prompt": "at buddhist temple"},
+            {"id": "rel9", "name": "Buddhist Stupa", "prompt": "at buddhist stupa"},
+            {"id": "rel10", "name": "Gurudwara", "prompt": "at gurudwara exterior"},
+            {"id": "rel11", "name": "Synagogue", "prompt": "at synagogue exterior"},
+            {"id": "rel12", "name": "Hindu River Ghat", "prompt": "at hindu river ghat"},
+            {"id": "rel13", "name": "Pagoda", "prompt": "at pagoda complex"},
+            {"id": "rel14", "name": "Shrine", "prompt": "in shrine courtyard"},
+            {"id": "rel15", "name": "Hilltop Temple", "prompt": "at hilltop temple"},
+            {"id": "rel16", "name": "Pilgrimage Complex", "prompt": "at pilgrimage complex"}
+          ]
+        },
+        {
+          "id": "historical",
+          "name": "Historical",
+          "items": [
+            {"id": "his1", "name": "Castle Ruins", "prompt": "at medieval castle ruins"},
+            {"id": "his2", "name": "Coastal Fort", "prompt": "at coastal fort"},
+            {"id": "his3", "name": "Amphitheater", "prompt": "at ancient amphitheater"},
+            {"id": "his4", "name": "Archaeological Dig", "prompt": "at archaeological dig site"},
+            {"id": "his5", "name": "Roman Aqueduct", "prompt": "at roman aqueduct remains"},
+            {"id": "his6", "name": "Colonial Plaza", "prompt": "at colonial-era plaza"},
+            {"id": "his7", "name": "Hilltop Citadel", "prompt": "at hilltop citadel"},
+            {"id": "his8", "name": "Temple Ruins", "prompt": "at ancient temple ruins"},
+            {"id": "his9", "name": "Desert Caravanserai", "prompt": "at desert caravanserai"},
+            {"id": "his10", "name": "Stepwell", "prompt": "at stepwell / ancient well"},
+            {"id": "his11", "name": "Lighthouse", "prompt": "at old lighthouse"},
+            {"id": "his12", "name": "Railway Station", "prompt": "at historic railway station exterior"},
+            {"id": "his13", "name": "Palatial Courtyard", "prompt": "at palatial courtyard"},
+            {"id": "his14", "name": "Old Town Gate", "prompt": "at old town gate and ramparts"}
+          ]
+        },
+        {
+          "id": "weather",
+          "name": "Weather",
+          "items": [
+            {"id": "wea1", "name": "Sunny & Bright", "prompt": "sunny and bright weather"},
+            {"id": "wea2", "name": "Clear Blue Sky", "prompt": "with clear blue sky"},
+            {"id": "wea3", "name": "Heat Haze", "prompt": "with heat haze"},
+            {"id": "wea4", "name": "Partly Cloudy", "prompt": "partly cloudy weather"},
+            {"id": "wea5", "name": "Overcast", "prompt": "overcast weather"},
+            {"id": "wea6", "name": "Ominous Clouds", "prompt": "with ominous clouds"},
+            {"id": "wea7", "name": "Drizzle", "prompt": "drizzling weather"},
+            {"id": "wea8", "name": "Heavy Downpour", "prompt": "heavy downpour"},
+            {"id": "wea9", "name": "Lightning Storm", "prompt": "lightning storm"},
+            {"id": "wea10", "name": "Gentle Snow", "prompt": "gentle snow weather"},
+            {"id": "wea11", "name": "Blizzard", "prompt": "blizzard conditions"},
+            {"id": "wea12", "name": "Dense Fog", "prompt": "dense fog weather"},
+            {"id": "wea13", "name": "Morning Mist", "prompt": "morning mist"},
+            {"id": "wea14", "name": "God Rays", "prompt": "with god rays"},
+            {"id": "wea15", "name": "Double Rainbow", "prompt": "with double rainbow"},
+            {"id": "wea16", "name": "Dust Storm", "prompt": "dust storm"},
+            {"id": "wea17", "name": "Aurora Borealis", "prompt": "with aurora borealis"}
+          ]
+        },
+        {
+          "id": "seasons",
+          "name": "Seasons",
+          "items": [
+            {"id": "sea1", "name": "Spring Blossom", "prompt": "spring blossom season"},
+            {"id": "sea2", "name": "Spring Rain", "prompt": "spring rain season"},
+            {"id": "sea3", "name": "High Summer", "prompt": "high summer season"},
+            {"id": "sea4", "name": "Dry Season", "prompt": "dry season"},
+            {"id": "sea5", "name": "Monsoon", "prompt": "monsoon season"},
+            {"id": "sea6", "name": "Early Autumn", "prompt": "early autumn season"},
+            {"id": "sea7", "name": "Golden Fall", "prompt": "golden fall season"},
+            {"id": "sea8", "name": "Late Autumn", "prompt": "late autumn season"},
+            {"id": "sea9", "name": "First Frost", "prompt": "first frost season"},
+            {"id": "sea10", "name": "Deep Winter", "prompt": "deep winter season"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indoor",
+      "name": "Indoor",
+      "icon": "🛌",
+      "tabs": [
+        {
+          "id": "homes",
+          "name": "Homes",
+          "items": [
+            {"id": "hom1", "name": "Bedroom Minimalist", "prompt": "in minimalist bedroom"},
+            {"id": "hom2", "name": "Bedroom Luxurious", "prompt": "in luxurious bedroom"},
+            {"id": "hom3", "name": "Bedroom Cozy", "prompt": "in cozy bedroom"},
+            {"id": "hom4", "name": "Bedroom Cluttered", "prompt": "in cluttered bedroom"},
+            {"id": "hom5", "name": "Kitchen Modern", "prompt": "in modern kitchen"},
+            {"id": "hom6", "name": "Kitchen Rustic", "prompt": "in rustic kitchen"},
+            {"id": "hom7", "name": "Kitchen Farmhouse", "prompt": "in farmhouse kitchen"},
+            {"id": "hom8", "name": "Living Room Mid-century", "prompt": "in mid-century living room"},
+            {"id": "hom9", "name": "Living Room Boho", "prompt": "in boho living room"},
+            {"id": "hom10", "name": "Living Room Industrial", "prompt": "in industrial living room"},
+            {"id": "hom11", "name": "Bathroom Marble", "prompt": "in marble bathroom"},
+            {"id": "hom12", "name": "Bathroom Tiled", "prompt": "in tiled bathroom"},
+            {"id": "hom13", "name": "Bathroom Steam", "prompt": "in steam bathroom"},
+            {"id": "hom14", "name": "Dining Room", "prompt": "in dining room"},
+            {"id": "hom15", "name": "Home Office", "prompt": "in home office"},
+            {"id": "hom16", "name": "Home Gym", "prompt": "in home gym"},
+            {"id": "hom17", "name": "Garage", "prompt": "in garage"},
+            {"id": "hom18", "name": "Basement", "prompt": "in basement"},
+            {"id": "hom19", "name": "Attic", "prompt": "in attic"},
+            {"id": "hom20", "name": "Balcony", "prompt": "on balcony"}
+          ]
+        },
+        {
+          "id": "institution_ind",
+          "name": "Institution",
+          "items": [
+            {"id": "inst1", "name": "Office Open Plan", "prompt": "in open plan office"},
+            {"id": "inst2", "name": "Office Corner", "prompt": "in corner office"},
+            {"id": "inst3", "name": "Office Startup", "prompt": "in startup office"},
+            {"id": "inst4", "name": "Hospital Ward", "prompt": "in hospital ward"},
+            {"id": "inst5", "name": "Clinic", "prompt": "in clinic"},
+            {"id": "inst6", "name": "Operating Theatre", "prompt": "in operating theatre"},
+            {"id": "inst7", "name": "School Classroom", "prompt": "in school classroom"},
+            {"id": "inst8", "name": "Lecture Hall", "prompt": "in university lecture hall"},
+            {"id": "inst9", "name": "Library", "prompt": "in library reading room"},
+            {"id": "inst10", "name": "Gym", "prompt": "in gym / fitness center"},
+            {"id": "inst11", "name": "Laboratory", "prompt": "in laboratory"},
+            {"id": "inst12", "name": "Bank Interior", "prompt": "in bank interior"},
+            {"id": "inst13", "name": "Courthouse", "prompt": "in courthouse"},
+            {"id": "inst14", "name": "Police Station", "prompt": "in police station"},
+            {"id": "inst15", "name": "Post Office", "prompt": "in post office"},
+            {"id": "inst16", "name": "Workshop", "prompt": "in workshop"},
+            {"id": "inst17", "name": "Co-working Space", "prompt": "in co-working space"}
+          ]
+        },
+        {
+          "id": "religious_ind",
+          "name": "Religious",
+          "items": [
+            {"id": "reli1", "name": "Buddhist Temple", "prompt": "in buddhist temple"},
+            {"id": "reli2", "name": "Hindu Temple", "prompt": "in hindu temple"},
+            {"id": "reli3", "name": "Cathedral", "prompt": "in cathedral"},
+            {"id": "reli4", "name": "Chapel", "prompt": "in chapel"},
+            {"id": "reli5", "name": "Mosque", "prompt": "in mosque"},
+            {"id": "reli6", "name": "Shrine", "prompt": "in shrine"},
+            {"id": "reli7", "name": "Monastery", "prompt": "in monastery"},
+            {"id": "reli8", "name": "Pagoda", "prompt": "in pagoda"}
+          ]
+        },
+        {
+          "id": "entertainment_ind",
+          "name": "Entertainment",
+          "items": [
+            {"id": "envt1", "name": "Concert Stage", "prompt": "on concert stage"},
+            {"id": "envt2", "name": "Music Festival Hall", "prompt": "in music festival indoor hall"},
+            {"id": "envt3", "name": "Theater", "prompt": "in theater"},
+            {"id": "envt4", "name": "Opera House", "prompt": "in opera house"},
+            {"id": "envt5", "name": "Nightclub", "prompt": "in nightclub"},
+            {"id": "envt6", "name": "Dance Floor", "prompt": "on dance floor"},
+            {"id": "envt7", "name": "Movie Theater", "prompt": "in movie theater"},
+            {"id": "envt8", "name": "Arcade", "prompt": "in arcade"},
+            {"id": "envt9", "name": "Carnival Tent", "prompt": "in carnival tent interior"},
+            {"id": "envt10", "name": "Circus Tent", "prompt": "in circus tent"},
+            {"id": "envt11", "name": "Comedy Club", "prompt": "in comedy club"},
+            {"id": "envt12", "name": "VIP Green Room", "prompt": "in VIP green room"}
+          ]
+        },
+        {
+          "id": "historical_ind",
+          "name": "Historical",
+          "items": [
+            {"id": "histi1", "name": "Roman Ruin", "prompt": "in roman ruin interior"},
+            {"id": "histi2", "name": "Greek Temple", "prompt": "in greek temple inner cella"},
+            {"id": "histi3", "name": "Medieval Castle", "prompt": "in medieval castle hall"},
+            {"id": "histi4", "name": "Fortress", "prompt": "in fortress guardroom"},
+            {"id": "histi5", "name": "Renaissance Palace", "prompt": "in renaissance palace interior"},
+            {"id": "histi6", "name": "Victorian Interior", "prompt": "in victorian interior"},
+            {"id": "histi7", "name": "Colonial Foyer", "prompt": "in colonial building foyer"},
+            {"id": "histi8", "name": "Old Bridge Interior", "prompt": "in old stone bridge covered interior"},
+            {"id": "histi9", "name": "Museum Interior", "prompt": "in museum interior"},
+            {"id": "histi10", "name": "Ottoman Bazaar", "prompt": "in ottoman bazaar covered arcade"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "name": "Camera",
+      "icon": "🎥",
+      "tabs": [
+        {
+          "id": "type",
+          "name": "Camera Type",
+          "items": [
+            {"id": "cam1", "name": "DSLR", "prompt": "shot with DSLR camera"},
+            {"id": "cam2", "name": "Mirrorless", "prompt": "shot with mirrorless camera"},
+            {"id": "cam3", "name": "35mm Film", "prompt": "shot on 35mm film"},
+            {"id": "cam4", "name": "Vintage Polaroid", "prompt": "shot with vintage polaroid"},
+            {"id": "cam5", "name": "Disposable Camera", "prompt": "shot with disposable camera"},
+            {"id": "cam6", "name": "Kodachrome", "prompt": "shot on kodachrome film"},
+            {"id": "cam7", "name": "Action Camera", "prompt": "shot with action camera"},
+            {"id": "cam8", "name": "Drone Aerial", "prompt": "shot with drone aerial"},
+            {"id": "cam9", "name": "CCTV", "prompt": "CCTV footage style"},
+            {"id": "cam10", "name": "Webcam", "prompt": "webcam capture style"},
+            {"id": "cam11", "name": "VHS Tape", "prompt": "VHS tape recording style"},
+            {"id": "cam12", "name": "Expired Film", "prompt": "expired film look"},
+            {"id": "cam13", "name": "Large Format", "prompt": "shot with large format camera"},
+            {"id": "cam14", "name": "Medium Format", "prompt": "shot with medium format camera"},
+            {"id": "cam15", "name": "Pinhole", "prompt": "pinhole camera style"},
+            {"id": "cam16", "name": "Daguerreotype", "prompt": "daguerreotype style"},
+            {"id": "cam17", "name": "Wet Plate", "prompt": "wet plate collodion style"},
+            {"id": "cam18", "name": "Thermal Imaging", "prompt": "thermal imaging style"},
+            {"id": "cam19", "name": "Night Vision", "prompt": "night vision style"},
+            {"id": "cam20", "name": "Smartphone", "prompt": "smartphone candid style"},
+            {"id": "cam21", "name": "Cinema Camera", "prompt": "cinema camera style"},
+            {"id": "cam22", "name": "Lomography", "prompt": "lomography style"},
+            {"id": "cam23", "name": "Toy Camera", "prompt": "toy camera style"},
+            {"id": "cam24", "name": "Super 8", "prompt": "super 8 film style"}
+          ]
+        },
+        {
+          "id": "lens",
+          "name": "Lens",
+          "items": [
+            {"id": "len1", "name": "Wide Angle (24mm)", "prompt": "shot with wide angle 24mm lens"},
+            {"id": "len2", "name": "Ultra-Wide (14mm)", "prompt": "shot with ultra-wide 14mm lens"},
+            {"id": "len3", "name": "Fisheye", "prompt": "shot with fisheye lens"},
+            {"id": "len4", "name": "Standard (50mm)", "prompt": "shot with standard 50mm lens"},
+            {"id": "len5", "name": "Portrait (85mm)", "prompt": "shot with portrait 85mm lens"},
+            {"id": "len6", "name": "Telephoto (200mm)", "prompt": "shot with telephoto 200mm lens"},
+            {"id": "len7", "name": "Super Telephoto", "prompt": "shot with super telephoto lens"},
+            {"id": "len8", "name": "Macro Lens", "prompt": "shot with macro lens"},
+            {"id": "len9", "name": "Anamorphic", "prompt": "shot with anamorphic lens"},
+            {"id": "len10", "name": "Tilt-Shift", "prompt": "shot with tilt-shift lens"},
+            {"id": "len11", "name": "Soft Focus", "prompt": "shot with soft focus lens"},
+            {"id": "len12", "name": "Probe Lens", "prompt": "shot with probe lens"},
+            {"id": "len13", "name": "Vintage Glass", "prompt": "shot with vintage glass lens"}
+          ]
+        },
+        {
+          "id": "shot_size",
+          "name": "Shot Size",
+          "items": [
+            {"id": "sh1", "name": "Extreme Close-up", "prompt": "extreme close-up shot"},
+            {"id": "sh2", "name": "Close-up", "prompt": "close-up shot"},
+            {"id": "sh3", "name": "Medium Close-up", "prompt": "medium close-up shot"},
+            {"id": "sh4", "name": "Medium Shot", "prompt": "medium shot"},
+            {"id": "sh5", "name": "Medium Full Shot", "prompt": "medium full shot"},
+            {"id": "sh6", "name": "Full Body Shot", "prompt": "full body shot"},
+            {"id": "sh7", "name": "Wide Shot", "prompt": "wide shot"},
+            {"id": "sh8", "name": "Extreme Wide Shot", "prompt": "extreme wide shot"},
+            {"id": "sh9", "name": "Head-and-shoulders", "prompt": "head-and-shoulders shot"},
+            {"id": "sh10", "name": "Two-shot", "prompt": "two-shot"},
+            {"id": "sh11", "name": "Over-the-shoulder", "prompt": "over-the-shoulder (OTS) shot"},
+            {"id": "sh12", "name": "Insert Shot", "prompt": "insert shot"}
+          ]
+        },
+        {
+          "id": "angle",
+          "name": "Angle",
+          "items": [
+            {"id": "ang1", "name": "Eye Level", "prompt": "eye level angle"},
+            {"id": "ang2", "name": "Low Angle", "prompt": "low angle shot"},
+            {"id": "ang3", "name": "High Angle", "prompt": "high angle shot"},
+            {"id": "ang4", "name": "Bird's Eye View", "prompt": "bird's eye view"},
+            {"id": "ang5", "name": "Dutch Angle", "prompt": "dutch angle shot"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lighting",
+      "name": "Lighting",
+      "icon": "💡",
+      "tabs": [
+        {
+          "id": "source",
+          "name": "Light Source",
+          "items": [
+            {"id": "ls1", "name": "Direct Sunlight", "prompt": "with direct sunlight"},
+            {"id": "ls2", "name": "Overcast / Diffuse", "prompt": "with overcast / diffuse daylight"},
+            {"id": "ls3", "name": "Golden Hour", "prompt": "with golden hour sunlight"},
+            {"id": "ls4", "name": "Blue Hour", "prompt": "with blue hour lighting"},
+            {"id": "ls5", "name": "Moonlight", "prompt": "with moonlight"},
+            {"id": "ls6", "name": "Bioluminescent", "prompt": "with bioluminescent lighting"},
+            {"id": "ls7", "name": "Neon Lights", "prompt": "with neon lights"},
+            {"id": "ls8", "name": "Studio Strobes", "prompt": "with studio strobes"},
+            {"id": "ls9", "name": "Fluorescent", "prompt": "with fluorescent lighting"},
+            {"id": "ls10", "name": "Candlelight", "prompt": "with candlelight"},
+            {"id": "ls11", "name": "Streetlights", "prompt": "with streetlights"},
+            {"id": "ls12", "name": "Ring Light", "prompt": "with ring light"},
+            {"id": "ls13", "name": "Screen Glow", "prompt": "with screen glow"},
+            {"id": "ls14", "name": "Spot Beam", "prompt": "with spot beam"},
+            {"id": "ls15", "name": "Natural + Tungsten", "prompt": "with natural and tungsten mixed lighting"},
+            {"id": "ls16", "name": "Natural + Lamp", "prompt": "with natural and lamp mixed lighting"},
+            {"id": "ls17", "name": "Practical + Rim", "prompt": "with practical and rim lighting"}
+          ]
+        },
+        {
+          "id": "direction",
+          "name": "Direction",
+          "items": [
+            {"id": "ld1", "name": "Front Lighting", "prompt": "with front lighting"},
+            {"id": "ld2", "name": "Side Lighting Left", "prompt": "with side lighting (left)"},
+            {"id": "ld3", "name": "Side Lighting Right", "prompt": "with side lighting (right)"},
+            {"id": "ld4", "name": "Backlighting", "prompt": "with backlighting (rim)"},
+            {"id": "ld5", "name": "Rembrandt", "prompt": "with rembrandt lighting"},
+            {"id": "ld6", "name": "Silhouette", "prompt": "with silhouette lighting"},
+            {"id": "ld7", "name": "Top-down / Butterfly", "prompt": "with top-down / butterfly lighting"},
+            {"id": "ld8", "name": "Reflective Bounce", "prompt": "with reflective bounce lighting"},
+            {"id": "ld9", "name": "High-key", "prompt": "with high-key lighting"},
+            {"id": "ld10", "name": "Low-key", "prompt": "with low-key lighting"}
+          ]
+        },
+        {
+          "id": "quality",
+          "name": "Quality",
+          "items": [
+            {"id": "lq1", "name": "Hard Light", "prompt": "with hard light"},
+            {"id": "lq2", "name": "Soft Light", "prompt": "with soft light"},
+            {"id": "lq3", "name": "Diffused", "prompt": "with diffused lighting"},
+            {"id": "lq4", "name": "Flat", "prompt": "with flat lighting"},
+            {"id": "lq5", "name": "Chiaroscuro", "prompt": "with chiaroscuro lighting"},
+            {"id": "lq6", "name": "Muted / Subtle", "prompt": "with muted / subtle lighting"}
+          ]
+        },
+        {
+          "id": "effects",
+          "name": "Effects",
+          "items": [
+            {"id": "le1", "name": "Volumetric / God Rays", "prompt": "with volumetric god rays"},
+            {"id": "le2", "name": "Lens Flare", "prompt": "with lens flare"},
+            {"id": "le3", "name": "Bokeh", "prompt": "with bokeh effect"},
+            {"id": "le4", "name": "Bloom / Glow", "prompt": "with bloom / glow effect"},
+            {"id": "le5", "name": "Subsurface Scattering", "prompt": "with subsurface scattering"},
+            {"id": "le6", "name": "Caustics", "prompt": "with caustics"},
+            {"id": "le7", "name": "Light Leaks", "prompt": "with light leaks"},
+            {"id": "le8", "name": "Dappled Light", "prompt": "with dappled light"},
+            {"id": "le9", "name": "Colored Wash", "prompt": "with colored wash gradient"},
+            {"id": "le10", "name": "Deep / Crushed", "prompt": "with deep / crushed blacks"}
+          ]
+        },
+        {
+          "id": "shadows",
+          "name": "Shadows",
+          "items": [
+            {"id": "shd1", "name": "Ambient Occlusion", "prompt": "with ambient occlusion"},
+            {"id": "shd2", "name": "Soft Shadows", "prompt": "with soft shadows"},
+            {"id": "shd3", "name": "Hard Shadows", "prompt": "with hard shadows"},
+            {"id": "shd4", "name": "Long Shadows", "prompt": "with long shadows"},
+            {"id": "shd5", "name": "Colored Shadows", "prompt": "with colored shadows"},
+            {"id": "shd6", "name": "Gobo Patterns", "prompt": "with gobo pattern shadows"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processing",
+      "name": "Processing",
+      "icon": "🎞️",
+      "tabs": [
+        {
+          "id": "curves",
+          "name": "Curves",
+          "items": [
+            {"id": "pc1", "name": "High Brightness", "prompt": "with high brightness"},
+            {"id": "pc2", "name": "Low Brightness", "prompt": "with low brightness"},
+            {"id": "pc3", "name": "High Contrast", "prompt": "with high contrast"},
+            {"id": "pc4", "name": "Low Contrast", "prompt": "with low contrast"},
+            {"id": "pc5", "name": "Underexposed", "prompt": "underexposed"},
+            {"id": "pc6", "name": "Overexposed", "prompt": "overexposed"},
+            {"id": "pc7", "name": "Desaturated", "prompt": "desaturated"}
+          ]
+        },
+        {
+          "id": "palette",
+          "name": "Color Palette",
+          "items": [
+            {"id": "pp1", "name": "Pastel Palette", "prompt": "with pastel palette"},
+            {"id": "pp2", "name": "Muted Earth Tones", "prompt": "with muted earth tones"},
+            {"id": "pp3", "name": "Neon / Electric", "prompt": "with neon / electric palette"},
+            {"id": "pp4", "name": "Warm Palette", "prompt": "with warm palette"},
+            {"id": "pp5", "name": "Cool Palette", "prompt": "with cool palette"},
+            {"id": "pp6", "name": "Monochromatic", "prompt": "monochromatic"},
+            {"id": "pp7", "name": "Duotone", "prompt": "duotone effect"},
+            {"id": "pp8", "name": "Analogous Colors", "prompt": "with analogous colors"},
+            {"id": "pp9", "name": "Complementary Colors", "prompt": "with complementary colors"},
+            {"id": "pp10", "name": "High-key Color", "prompt": "with high-key color"},
+            {"id": "pp11", "name": "Low-key Color", "prompt": "with low-key color"}
+          ]
+        },
+        {
+          "id": "cinematic",
+          "name": "Cinematic",
+          "items": [
+            {"id": "cin1", "name": "Cinematic Palette", "prompt": "with cinematic palette"},
+            {"id": "cin2", "name": "Film Emulation", "prompt": "with film emulation"},
+            {"id": "cin3", "name": "Teal & Orange", "prompt": "with teal and orange grading"},
+            {"id": "cin4", "name": "Noir B&W", "prompt": "noir black and white style"},
+            {"id": "cin5", "name": "Vintage Faded Film", "prompt": "with vintage faded film look"},
+            {"id": "cin6", "name": "Cross-processed", "prompt": "cross-processed look"},
+            {"id": "cin7", "name": "Bleach Bypass", "prompt": "bleach bypass look"},
+            {"id": "cin8", "name": "Technicolor", "prompt": "technicolor look"},
+            {"id": "cin9", "name": "Blockbuster LUT", "prompt": "blockbuster cinematic LUT"},
+            {"id": "cin10", "name": "Desaturated Teal", "prompt": "with desaturated teal grade"},
+            {"id": "cin11", "name": "Warm Filmic", "prompt": "with warm filmic grade"},
+            {"id": "cin12", "name": "Kodachrome", "prompt": "kodachrome style"},
+            {"id": "cin13", "name": "Fujifilm Style", "prompt": "fujifilm style"}
+          ]
+        },
+        {
+          "id": "filter",
+          "name": "Filter",
+          "items": [
+            {"id": "pf1", "name": "Vignette", "prompt": "with vignette"},
+            {"id": "pf2", "name": "Warming", "prompt": "with warming filter"},
+            {"id": "pf3", "name": "Cooling", "prompt": "with cooling filter"},
+            {"id": "pf4", "name": "Sepia", "prompt": "with sepia filter"},
+            {"id": "pf5", "name": "Film Grain", "prompt": "with film grain"},
+            {"id": "pf6", "name": "Cool Blue", "prompt": "with cool blue tone"},
+            {"id": "pf7", "name": "High Saturation", "prompt": "with high saturation"},
+            {"id": "pf8", "name": "Pastel Wash", "prompt": "with pastel wash"},
+            {"id": "pf9", "name": "Matte Finish", "prompt": "with matte finish"},
+            {"id": "pf10", "name": "Blueprint", "prompt": "blueprint style"},
+            {"id": "pf11", "name": "Monochrome Cool", "prompt": "monochrome cool tone"},
+            {"id": "pf12", "name": "Monochrome Warm", "prompt": "monochrome warm tone"},
+            {"id": "pf13", "name": "B&W High", "prompt": "black and white high contrast"},
+            {"id": "pf14", "name": "B&W Soft", "prompt": "black and white soft"},
+            {"id": "pf15", "name": "Thermal Palette", "prompt": "thermal palette"},
+            {"id": "pf16", "name": "Selective Vibrance", "prompt": "with selective vibrance"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "name": "Others",
+      "icon": "📦",
+      "tabs": [
+        {
+          "id": "mood",
+          "name": "Mood",
+          "items": [
+            {"id": "mood1", "name": "Playful", "prompt": "with playful mood"},
+            {"id": "mood2", "name": "Melancholic", "prompt": "with melancholic mood"},
+            {"id": "mood3", "name": "Romantic", "prompt": "with romantic mood"},
+            {"id": "mood4", "name": "Mysterious", "prompt": "with mysterious mood"},
+            {"id": "mood5", "name": "Tense", "prompt": "with tense mood"},
+            {"id": "mood6", "name": "Calm", "prompt": "with calm mood"},
+            {"id": "mood7", "name": "Joyful", "prompt": "with joyful mood"},
+            {"id": "mood8", "name": "Somber", "prompt": "with somber mood"},
+            {"id": "mood9", "name": "Dark", "prompt": "with dark mood"},
+            {"id": "mood10", "name": "Cheery", "prompt": "with cheery mood"},
+            {"id": "mood11", "name": "Epic", "prompt": "with epic mood"},
+            {"id": "mood12", "name": "Tranquil", "prompt": "with tranquil mood"},
+            {"id": "mood13", "name": "Haunting", "prompt": "with haunting mood"},
+            {"id": "mood14", "name": "Dreamlike", "prompt": "with dreamlike mood"},
+            {"id": "mood15", "name": "Eerie", "prompt": "with eerie mood"},
+            {"id": "mood16", "name": "Whimsical", "prompt": "with whimsical mood"},
+            {"id": "mood17", "name": "Nostalgic", "prompt": "with nostalgic mood"},
+            {"id": "mood18", "name": "Optimistic", "prompt": "with optimistic mood"},
+            {"id": "mood19", "name": "Gritty", "prompt": "with gritty mood"},
+            {"id": "mood20", "name": "Grimy", "prompt": "with grimy mood"}
+          ]
+        }
+      ]
+    }
+  ]
+}
